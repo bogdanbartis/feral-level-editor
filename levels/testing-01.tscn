@@ -1,4 +1,4 @@
-[gd_scene load_steps=10 format=3 uid="uid://mggwdv75cvk7"]
+[gd_scene load_steps=11 format=3 uid="uid://mggwdv75cvk7"]
 
 [ext_resource type="Script" uid="uid://c13lfr0tm44lq" path="res://levels/camera_2d.gd" id="1_7j6gi"]
 [ext_resource type="Texture2D" uid="uid://ba2ikewegg0jp" path="res://sprites/testing/graphics/wall-tall-dark.png" id="2_6kw3k"]
@@ -9,6 +9,7 @@
 [ext_resource type="Texture2D" uid="uid://c3ebv7ulosbvv" path="res://sprites/testing/graphics/Cat-Painting---03.png" id="7_abk84"]
 [ext_resource type="Texture2D" uid="uid://8ehtj4qao7dl" path="res://sprites/testing/graphics/Cat-Painting---04.png" id="8_e6a0e"]
 [ext_resource type="Texture2D" uid="uid://dh70u61biv8jc" path="res://sprites/testing/graphics/reception-desk.png" id="9_lu74m"]
+[ext_resource type="Texture2D" uid="uid://dpw51wtjdk26m" path="res://sprites/testing/graphics/couch-lobby-red-pillow.png" id="10_v7vmj"]
 
 [node name="testing" type="Node2D"]
 metadata/_edit_vertical_guides_ = [0.0, 640.0]
@@ -1407,4 +1408,9 @@ centered = false
 [node name="ReceptionDesk" type="Sprite2D" parent="."]
 position = Vector2(201.294, 274.423)
 texture = ExtResource("9_lu74m")
+centered = false
+
+[node name="CouchLobbyRedPillow" type="Sprite2D" parent="."]
+position = Vector2(539.036, 262.903)
+texture = ExtResource("10_v7vmj")
 centered = false

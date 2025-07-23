@@ -1,4 +1,4 @@
-[gd_scene load_steps=13 format=3 uid="uid://mggwdv75cvk7"]
+[gd_scene load_steps=14 format=3 uid="uid://mggwdv75cvk7"]
 
 [ext_resource type="Script" uid="uid://c13lfr0tm44lq" path="res://levels/camera_2d.gd" id="1_7j6gi"]
 [ext_resource type="Texture2D" uid="uid://ba2ikewegg0jp" path="res://sprites/testing/graphics/wall-tall-dark.png" id="2_6kw3k"]
@@ -12,6 +12,7 @@
 [ext_resource type="Texture2D" uid="uid://b0fnh0aykh226" path="res://sprites/testing/graphics/wood-wall-interior-large.png" id="10_e51g0"]
 [ext_resource type="Texture2D" uid="uid://dpw51wtjdk26m" path="res://sprites/testing/graphics/couch-lobby-red-pillow.png" id="10_v7vmj"]
 [ext_resource type="Texture2D" uid="uid://crkt2814a1qnr" path="res://sprites/testing/graphics/abrstract-painting-02.png" id="11_4okpn"]
+[ext_resource type="Texture2D" uid="uid://8pemem3yo83y" path="res://sprites/testing/graphics/plant_pot_tall.png" id="13_gqtvg"]
 
 [node name="testing" type="Node2D"]
 metadata/_edit_vertical_guides_ = [0.0, 640.0]
@@ -1424,4 +1425,9 @@ texture = ExtResource("11_4okpn")
 [node name="CouchLobbyRedPillow" type="Sprite2D" parent="."]
 position = Vector2(539.036, 262.903)
 texture = ExtResource("10_v7vmj")
+centered = false
+
+[node name="PlantPotTall" type="Sprite2D" parent="."]
+position = Vector2(169.824, 230.382)
+texture = ExtResource("13_gqtvg")
 centered = false

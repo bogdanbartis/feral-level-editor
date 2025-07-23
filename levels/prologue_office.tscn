@@ -1,0 +1,11 @@
+[gd_scene load_steps=2 format=3 uid="uid://cf63bu5gqmg50"]
+
+[ext_resource type="Script" uid="uid://c13lfr0tm44lq" path="res://levels/camera_2d.gd" id="1_j5v0d"]
+
+[node name="Node2D" type="Node2D"]
+metadata/_edit_vertical_guides_ = [640.0, 0.0]
+metadata/_edit_horizontal_guides_ = [0.0, 360.0]
+
+[node name="Camera2D" type="Camera2D" parent="."]
+anchor_mode = 0
+script = ExtResource("1_j5v0d")

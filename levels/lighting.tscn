@@ -1,0 +1,181 @@
+[gd_scene load_steps=13 format=3 uid="uid://b054uvbmyxio2"]
+
+[ext_resource type="Texture2D" uid="uid://bniiyrapxwple" path="res://sprites/city_environment/graphics/wall-concrete-large-H-large.png" id="1_owrny"]
+[ext_resource type="Texture2D" uid="uid://nbu5tymbo65s" path="res://sprites/city_environment/graphics/concrete-wall-dark.png" id="2_p8aw0"]
+[ext_resource type="Texture2D" uid="uid://ddcrlwxhitrh0" path="res://sprites/city_environment/graphics/carpet-large.png" id="3_0nopn"]
+[ext_resource type="PackedScene" uid="uid://0t87yfdk8rig" path="res://sprites/lighting/neon.tscn" id="3_idc61"]
+[ext_resource type="Texture2D" uid="uid://buouwy842xwdt" path="res://sprites/interior_objects/graphics/cabinet-small-books.png" id="4_idc61"]
+[ext_resource type="Texture2D" uid="uid://bwy5w28l4yw1q" path="res://sprites/lighting/graphics/neon.png" id="4_j8gh6"]
+[ext_resource type="Texture2D" uid="uid://ce64nef12xab6" path="res://sprites/interior_objects/graphics/couch-lobby-simple.png" id="6_7b4ol"]
+[ext_resource type="Texture2D" uid="uid://bhwxbowp5gesp" path="res://sprites/interior_objects/graphics/books-shelf.png" id="7_bns83"]
+[ext_resource type="Texture2D" uid="uid://c5bvt4u1it101" path="res://sprites/interior_objects/graphics/plant-03.png" id="8_32js5"]
+[ext_resource type="Texture2D" uid="uid://ct25a8g5nne3" path="res://sprites/lighting/light_cone_4K_blur.png" id="10_yl0fs"]
+
+[sub_resource type="OccluderPolygon2D" id="OccluderPolygon2D_bns83"]
+polygon = PackedVector2Array(-0.268494, 16.0745, -0.268494, 17.0745, 44.7315, 17.0745, 45, 16)
+
+[sub_resource type="OccluderPolygon2D" id="OccluderPolygon2D_yl0fs"]
+polygon = PackedVector2Array(0, 16, 0, 17, 45, 17, 45, 16)
+
+[node name="Lighting" type="Node2D"]
+metadata/_edit_vertical_guides_ = [640.0, 0.0]
+metadata/_edit_horizontal_guides_ = [0.0, 360.0]
+
+[node name="Background" type="ColorRect" parent="."]
+offset_right = 640.0
+offset_bottom = 360.0
+color = Color(0, 0, 0, 1)
+metadata/_edit_lock_ = true
+
+[node name="Wall" type="Node2D" parent="."]
+position = Vector2(0, 27)
+metadata/_edit_group_ = true
+metadata/_edit_lock_ = true
+
+[node name="ConcreteWallDark" type="Sprite2D" parent="Wall"]
+position = Vector2(-100, 67)
+texture = ExtResource("2_p8aw0")
+centered = false
+
+[node name="ConcreteWallDark2" type="Sprite2D" parent="Wall"]
+position = Vector2(32, 67)
+texture = ExtResource("2_p8aw0")
+centered = false
+
+[node name="ConcreteWallDark3" type="Sprite2D" parent="Wall"]
+position = Vector2(164, 67)
+texture = ExtResource("2_p8aw0")
+centered = false
+
+[node name="ConcreteWallDark4" type="Sprite2D" parent="Wall"]
+position = Vector2(296, 67)
+texture = ExtResource("2_p8aw0")
+centered = false
+
+[node name="ConcreteWallDark5" type="Sprite2D" parent="Wall"]
+position = Vector2(428, 67)
+texture = ExtResource("2_p8aw0")
+centered = false
+
+[node name="ConcreteWallDark6" type="Sprite2D" parent="Wall"]
+position = Vector2(560, 67)
+texture = ExtResource("2_p8aw0")
+centered = false
+
+[node name="Ceiling" type="Node2D" parent="."]
+position = Vector2(16, -2)
+
+[node name="WallConcreteLargeHLarge3" type="Sprite2D" parent="Ceiling"]
+position = Vector2(-240, 64)
+texture = ExtResource("1_owrny")
+centered = false
+
+[node name="WallConcreteLargeHLarge4" type="Sprite2D" parent="Ceiling"]
+position = Vector2(320, 64)
+texture = ExtResource("1_owrny")
+centered = false
+
+[node name="Lighting" type="Node2D" parent="Ceiling"]
+position = Vector2(-197, 2)
+metadata/_edit_group_ = true
+
+[node name="Neon" parent="Ceiling/Lighting" instance=ExtResource("3_idc61")]
+position = Vector2(299, 94)
+
+[node name="Neon2" parent="Ceiling/Lighting" instance=ExtResource("3_idc61")]
+position = Vector2(437, 95)
+
+[node name="Node2D2" type="Node2D" parent="Ceiling/Lighting"]
+position = Vector2(-226, 7)
+metadata/_edit_group_ = true
+
+[node name="LightOccluder2D" type="LightOccluder2D" parent="Ceiling/Lighting/Node2D2"]
+light_mask = 2
+visibility_layer = 2
+position = Vector2(442.268, 145.925)
+occluder = SubResource("OccluderPolygon2D_bns83")
+
+[node name="BooksShelf" type="Sprite2D" parent="Ceiling/Lighting/Node2D2"]
+position = Vector2(442.268, 145.925)
+texture = ExtResource("7_bns83")
+centered = false
+
+[node name="Floor" type="Node2D" parent="."]
+position = Vector2(16, 27)
+metadata/_edit_group_ = true
+metadata/_edit_lock_ = true
+
+[node name="CarpetLarge" type="Sprite2D" parent="Floor"]
+position = Vector2(-280, 214)
+texture = ExtResource("3_0nopn")
+centered = false
+
+[node name="CarpetLarge2" type="Sprite2D" parent="Floor"]
+position = Vector2(320, 214)
+texture = ExtResource("3_0nopn")
+centered = false
+
+[node name="WallConcreteLargeHLarge" type="Sprite2D" parent="Floor"]
+position = Vector2(-240, 224)
+texture = ExtResource("1_owrny")
+centered = false
+
+[node name="WallConcreteLargeHLarge2" type="Sprite2D" parent="Floor"]
+position = Vector2(320, 224)
+texture = ExtResource("1_owrny")
+centered = false
+
+[node name="CabinetSmallBooks" type="Sprite2D" parent="."]
+position = Vector2(160, 199)
+texture = ExtResource("4_idc61")
+centered = false
+
+[node name="CouchLobbySimple" type="Sprite2D" parent="."]
+z_index = 10
+position = Vector2(336, 196)
+texture = ExtResource("6_7b4ol")
+centered = false
+
+[node name="Plant03" type="Sprite2D" parent="."]
+position = Vector2(271.61, 198.974)
+texture = ExtResource("8_32js5")
+centered = false
+
+[node name="Light Fixture" type="Node2D" parent="."]
+
+[node name="Neon" type="Sprite2D" parent="Light Fixture"]
+position = Vector2(465.422, 94.6949)
+texture = ExtResource("4_j8gh6")
+centered = false
+
+[node name="PointLight2D" type="PointLight2D" parent="Light Fixture"]
+position = Vector2(496, 43)
+scale = Vector2(0.167238, 0.167238)
+color = Color(1, 1, 0.529412, 1)
+shadow_enabled = true
+texture = ExtResource("10_yl0fs")
+offset = Vector2(1.58203, 820.729)
+
+[node name="Shelf" type="Node2D" parent="."]
+position = Vector2(117, 7)
+metadata/_edit_group_ = true
+
+[node name="LightOccluder2D" type="LightOccluder2D" parent="Shelf"]
+visible = false
+light_mask = 2
+visibility_layer = 2
+position = Vector2(442.268, 145.925)
+occluder = SubResource("OccluderPolygon2D_bns83")
+
+[node name="Shelf2" type="Node2D" parent="."]
+position = Vector2(-4, 15)
+metadata/_edit_group_ = true
+
+[node name="BooksShelf" type="Sprite2D" parent="Shelf2"]
+position = Vector2(477, 161)
+texture = ExtResource("7_bns83")
+centered = false
+
+[node name="LightOccluder2D" type="LightOccluder2D" parent="Shelf2"]
+position = Vector2(477, 161)
+occluder = SubResource("OccluderPolygon2D_yl0fs")

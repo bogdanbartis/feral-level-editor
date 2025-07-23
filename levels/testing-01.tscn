@@ -9,6 +9,7 @@
 [ext_resource type="Texture2D" uid="uid://c3ebv7ulosbvv" path="res://sprites/testing/graphics/Cat-Painting---03.png" id="7_abk84"]
 [ext_resource type="Texture2D" uid="uid://8ehtj4qao7dl" path="res://sprites/testing/graphics/Cat-Painting---04.png" id="8_e6a0e"]
 [ext_resource type="Texture2D" uid="uid://b0fnh0aykh226" path="res://sprites/testing/graphics/wood-wall-interior-large.png" id="9_lu74m"]
+[ext_resource type="Texture2D" uid="uid://dh70u61biv8jc" path="res://sprites/testing/graphics/reception-desk.png" id="9_lu74m"]
 
 [node name="testing" type="Node2D"]
 metadata/_edit_vertical_guides_ = [0.0, 640.0]
@@ -1406,5 +1407,8 @@ centered = false
 
 [node name="WoodWallInteriorLarge" type="Sprite2D" parent="."]
 position = Vector2(184.53, 53.9228)
+
+[node name="ReceptionDesk" type="Sprite2D" parent="."]
+position = Vector2(201.294, 274.423)
 texture = ExtResource("9_lu74m")
 centered = false

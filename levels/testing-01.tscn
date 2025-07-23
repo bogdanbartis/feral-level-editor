@@ -1,4 +1,4 @@
-[gd_scene load_steps=7 format=3 uid="uid://mggwdv75cvk7"]
+[gd_scene load_steps=8 format=3 uid="uid://mggwdv75cvk7"]
 
 [ext_resource type="Script" uid="uid://c13lfr0tm44lq" path="res://levels/camera_2d.gd" id="1_7j6gi"]
 [ext_resource type="Texture2D" uid="uid://ba2ikewegg0jp" path="res://sprites/testing/graphics/wall-tall-dark.png" id="2_6kw3k"]
@@ -6,6 +6,7 @@
 [ext_resource type="Texture2D" uid="uid://dsnd2vhqhurhy" path="res://sprites/testing/graphics/sidewalk-tile.png" id="3_q4tca"]
 [ext_resource type="Texture2D" uid="uid://dcxiacwyd5lnv" path="res://sprites/city_environment/graphics/ceeling-concrete-large.png" id="5_bjiek"]
 [ext_resource type="Texture2D" uid="uid://ce4rjpjwl7cm3" path="res://sprites/testing/reference.png" id="6_abk84"]
+[ext_resource type="Texture2D" uid="uid://c3ebv7ulosbvv" path="res://sprites/testing/graphics/Cat-Painting---03.png" id="7_abk84"]
 
 [node name="testing" type="Node2D"]
 metadata/_edit_vertical_guides_ = [0.0, 640.0]
@@ -1385,3 +1386,13 @@ position = Vector2(321.225, 179)
 scale = Vector2(0.2346, 0.2346)
 texture = ExtResource("6_abk84")
 metadata/_edit_lock_ = true
+
+[node name="CatPainting03" type="Sprite2D" parent="."]
+position = Vector2(491.803, 117.09)
+texture = ExtResource("7_abk84")
+centered = false
+
+[node name="@Sprite2D@24067" type="Sprite2D" parent="."]
+position = Vector2(491.12, 117.09)
+texture = ExtResource("7_abk84")
+centered = false

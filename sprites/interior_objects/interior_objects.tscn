@@ -1,0 +1,1238 @@
+[gd_scene load_steps=97 format=3 uid="uid://dw7nwd67to66q"]
+
+[ext_resource type="Texture2D" uid="uid://cofrkb8uassmy" path="res://sprites/interior_objects/graphics/Armchair-moss.png" id="1_3v5j2"]
+[ext_resource type="Texture2D" uid="uid://buha5qb7bt4qk" path="res://sprites/interior_objects/graphics/Armchair-red.png" id="2_xynb7"]
+[ext_resource type="Texture2D" uid="uid://cx34xk6lr5hvx" path="res://sprites/interior_objects/graphics/Cat-Painting----Warhol.png" id="3_5bctb"]
+[ext_resource type="Texture2D" uid="uid://ygk3y7mv3pjx" path="res://sprites/interior_objects/graphics/Cat-Painting---01.png" id="4_0vrc6"]
+[ext_resource type="Texture2D" uid="uid://dbrmos6n18uj4" path="res://sprites/interior_objects/graphics/Cat-Painting---02.png" id="5_jxp8y"]
+[ext_resource type="Texture2D" uid="uid://b8poxtqwosn3x" path="res://sprites/interior_objects/graphics/Cat-Painting---03.png" id="6_l46mv"]
+[ext_resource type="Texture2D" uid="uid://cr3x86elstdjb" path="res://sprites/interior_objects/graphics/Cat-Painting---04.png" id="7_xhvhi"]
+[ext_resource type="Texture2D" uid="uid://bca8jo3cs2grp" path="res://sprites/interior_objects/graphics/Cat-Painting-Horizontal.png" id="8_ahnqw"]
+[ext_resource type="Texture2D" uid="uid://be56nwv542k6k" path="res://sprites/interior_objects/graphics/Level_1_-_Office_-_01_-_To_Export_Dark-5.png" id="9_xp8g6"]
+[ext_resource type="Texture2D" uid="uid://dvu70lgul1qec" path="res://sprites/interior_objects/graphics/Level_1_-_Office_-_01_-_To_Export_Dark-6.png" id="10_e0mxj"]
+[ext_resource type="Texture2D" uid="uid://dsrnrfuce88je" path="res://sprites/interior_objects/graphics/Poster-hang-in-there.png" id="11_vtjcy"]
+[ext_resource type="Texture2D" uid="uid://dj1pfjo2qt0bn" path="res://sprites/interior_objects/graphics/abrstract-painting-02.png" id="12_p5k62"]
+[ext_resource type="Texture2D" uid="uid://cnkf8dqie8olp" path="res://sprites/interior_objects/graphics/abrstract-painting.png" id="13_1fgu2"]
+[ext_resource type="Texture2D" uid="uid://c7ac0wylntq0t" path="res://sprites/interior_objects/graphics/apple-frame-desk.png" id="14_1rd1k"]
+[ext_resource type="Texture2D" uid="uid://sy7er5erhop8" path="res://sprites/interior_objects/graphics/armchair-executive.png" id="15_25y6c"]
+[ext_resource type="Texture2D" uid="uid://b4ocijejctr4m" path="res://sprites/interior_objects/graphics/armchair-lobby-left.png" id="16_tl526"]
+[ext_resource type="Texture2D" uid="uid://b4nlade18kmcc" path="res://sprites/interior_objects/graphics/barrel-fish-tag.png" id="17_jkumt"]
+[ext_resource type="Texture2D" uid="uid://dsvw0vur62r4w" path="res://sprites/interior_objects/graphics/barrel-simple.png" id="18_nlapj"]
+[ext_resource type="Texture2D" uid="uid://cs7mqr8kylt6o" path="res://sprites/interior_objects/graphics/bonsai-extra-small.png" id="19_du5w1"]
+[ext_resource type="Texture2D" uid="uid://bk6b34apwsl6j" path="res://sprites/interior_objects/graphics/bonsai-small.png" id="20_wy6uk"]
+[ext_resource type="Texture2D" uid="uid://4f7rv5r25mgr" path="res://sprites/interior_objects/graphics/book-open.png" id="21_d0thy"]
+[ext_resource type="Texture2D" uid="uid://0xdq8yupw42y" path="res://sprites/interior_objects/graphics/bookcase-green-flat.png" id="22_3v28a"]
+[ext_resource type="Texture2D" uid="uid://di2iovx317at" path="res://sprites/interior_objects/graphics/books-horizontal-1.png" id="23_dtk83"]
+[ext_resource type="Texture2D" uid="uid://46ynca5n2m2s" path="res://sprites/interior_objects/graphics/books-horizontal-2.png" id="24_ixfer"]
+[ext_resource type="Texture2D" uid="uid://bkgxfyo2sybot" path="res://sprites/interior_objects/graphics/books-horizontal-3.png" id="25_5b1l3"]
+[ext_resource type="Texture2D" uid="uid://d5hj2fxxr7j8" path="res://sprites/interior_objects/graphics/books-horizontal-4.png" id="26_8y2ap"]
+[ext_resource type="Texture2D" uid="uid://blmc4wswde72t" path="res://sprites/interior_objects/graphics/books-horizontal-5.png" id="27_u6ein"]
+[ext_resource type="Texture2D" uid="uid://cseb4nenr5kq8" path="res://sprites/interior_objects/graphics/books-horizontal-6.png" id="28_cc7t5"]
+[ext_resource type="Texture2D" uid="uid://5pcwvecm4iqf" path="res://sprites/interior_objects/graphics/books-horizontal-7.png" id="29_ycqer"]
+[ext_resource type="Texture2D" uid="uid://coceimeev5iwj" path="res://sprites/interior_objects/graphics/books-horizontal-8.png" id="30_nthyt"]
+[ext_resource type="Texture2D" uid="uid://cqdsml4icmdh1" path="res://sprites/interior_objects/graphics/books-horizontal.png" id="31_nfjc2"]
+[ext_resource type="Texture2D" uid="uid://bhwxbowp5gesp" path="res://sprites/interior_objects/graphics/books-shelf.png" id="32_gchoy"]
+[ext_resource type="Texture2D" uid="uid://c0phcx1mt8jns" path="res://sprites/interior_objects/graphics/books-stacked-vertical-1.png" id="33_jpy3a"]
+[ext_resource type="Texture2D" uid="uid://hoh0col2cnhd" path="res://sprites/interior_objects/graphics/books-stacked-vertical-2.png" id="34_sb8wg"]
+[ext_resource type="Texture2D" uid="uid://bsv2hs66ny0e6" path="res://sprites/interior_objects/graphics/books-stacked-vertical-3.png" id="35_og8b1"]
+[ext_resource type="Texture2D" uid="uid://dx2fof7i2o7sq" path="res://sprites/interior_objects/graphics/books-stacked-vertical.png" id="36_m0ftb"]
+[ext_resource type="Texture2D" uid="uid://buouwy842xwdt" path="res://sprites/interior_objects/graphics/cabinet-small-books.png" id="37_nuwtm"]
+[ext_resource type="Texture2D" uid="uid://7ix3i4c6m6vi" path="res://sprites/interior_objects/graphics/cabinet-small-radio.png" id="38_capls"]
+[ext_resource type="Texture2D" uid="uid://depw7sjpotato" path="res://sprites/interior_objects/graphics/cabinet-tall.png" id="39_ngred"]
+[ext_resource type="Texture2D" uid="uid://cftmdtcmc6hdx" path="res://sprites/interior_objects/graphics/carpet-circle-red.png" id="40_eiyhv"]
+[ext_resource type="Texture2D" uid="uid://c54p2t510pygw" path="res://sprites/interior_objects/graphics/clothes-hanger-1.png" id="41_1mhnb"]
+[ext_resource type="Texture2D" uid="uid://dbh3tlsxbqtj3" path="res://sprites/interior_objects/graphics/clothes-hanger-2.png" id="42_3rfv5"]
+[ext_resource type="Texture2D" uid="uid://dh78x5lfjudrt" path="res://sprites/interior_objects/graphics/coffee-pot.png" id="43_4y6cd"]
+[ext_resource type="Texture2D" uid="uid://bh2tljn7h3imh" path="res://sprites/interior_objects/graphics/cork-board.png" id="44_erbwp"]
+[ext_resource type="Texture2D" uid="uid://cufu2jrkloyrl" path="res://sprites/interior_objects/graphics/couch-blue-with-blanket.png" id="45_k1bxu"]
+[ext_resource type="Texture2D" uid="uid://blve81ryat2od" path="res://sprites/interior_objects/graphics/couch-lobby-pillow.png" id="46_u63qa"]
+[ext_resource type="Texture2D" uid="uid://dque01bcetck6" path="res://sprites/interior_objects/graphics/couch-lobby-red-pillow.png" id="47_bhh4k"]
+[ext_resource type="Texture2D" uid="uid://ce64nef12xab6" path="res://sprites/interior_objects/graphics/couch-lobby-simple.png" id="48_yid71"]
+[ext_resource type="Texture2D" uid="uid://c3yarrtxf0nsu" path="res://sprites/interior_objects/graphics/couch-moss.png" id="49_p7spg"]
+[ext_resource type="Texture2D" uid="uid://cf5ctsh3mg7b7" path="res://sprites/interior_objects/graphics/desk-expensive.png" id="50_bg2vw"]
+[ext_resource type="Texture2D" uid="uid://cbk4tbvtp21f1" path="res://sprites/interior_objects/graphics/desk-office-01.png" id="51_tqnwe"]
+[ext_resource type="Texture2D" uid="uid://3ipkk0vpeh4d" path="res://sprites/interior_objects/graphics/desk-office-02.png" id="52_7fftt"]
+[ext_resource type="Texture2D" uid="uid://cn1n0h40re40x" path="res://sprites/interior_objects/graphics/dishwasher.png" id="53_q34fs"]
+[ext_resource type="Texture2D" uid="uid://ci1bco4j0repo" path="res://sprites/interior_objects/graphics/fire-exstinguisher.png" id="54_4455x"]
+[ext_resource type="Texture2D" uid="uid://bhs135h83a48e" path="res://sprites/interior_objects/graphics/fire-stove-1.png" id="55_nosdq"]
+[ext_resource type="Texture2D" uid="uid://csi7euedm1diy" path="res://sprites/interior_objects/graphics/fire-stove-2.png" id="56_h8qkg"]
+[ext_resource type="Texture2D" uid="uid://b4aylb5g5e8sn" path="res://sprites/interior_objects/graphics/french-press.png" id="57_eim26"]
+[ext_resource type="Texture2D" uid="uid://cv2j7v7hxru7l" path="res://sprites/interior_objects/graphics/fridge-yellow.png" id="58_lp4jv"]
+[ext_resource type="Texture2D" uid="uid://b42lrqnkrknhy" path="res://sprites/interior_objects/graphics/frog-butcher.png" id="59_6uxl3"]
+[ext_resource type="Texture2D" uid="uid://bjsjhuneux52a" path="res://sprites/interior_objects/graphics/globe-stand.png" id="60_gex2l"]
+[ext_resource type="Texture2D" uid="uid://dj47b3mddreq2" path="res://sprites/interior_objects/graphics/kitchen-cabinet.png" id="61_t0srw"]
+[ext_resource type="Texture2D" uid="uid://d1as6oj2l4331" path="res://sprites/interior_objects/graphics/knives-wall.png" id="62_hsqnj"]
+[ext_resource type="Texture2D" uid="uid://bxmeejqb0bffq" path="res://sprites/interior_objects/graphics/lamp-fancy.png" id="63_kj03s"]
+[ext_resource type="Texture2D" uid="uid://dwl78h37s1l33" path="res://sprites/interior_objects/graphics/lamp-office.png" id="64_v2vr7"]
+[ext_resource type="Texture2D" uid="uid://v87hiorviclt" path="res://sprites/interior_objects/graphics/mug-green-small.png" id="65_mrmso"]
+[ext_resource type="Texture2D" uid="uid://cuyk3e6i5h4dy" path="res://sprites/interior_objects/graphics/mug-green-tall.png" id="66_5cd4l"]
+[ext_resource type="Texture2D" uid="uid://dvanrc7g8flmr" path="res://sprites/interior_objects/graphics/mug-red.png" id="67_o43ya"]
+[ext_resource type="Texture2D" uid="uid://hmk1kgxlxisk" path="res://sprites/interior_objects/graphics/mug-yellow-small.png" id="68_qqgfq"]
+[ext_resource type="Texture2D" uid="uid://dfpk5getgovli" path="res://sprites/interior_objects/graphics/oven.png" id="69_nrt1p"]
+[ext_resource type="Texture2D" uid="uid://didjrric8k4bi" path="res://sprites/interior_objects/graphics/painting-boat.png" id="70_d321f"]
+[ext_resource type="Texture2D" uid="uid://t4x0k4gjxx3u" path="res://sprites/interior_objects/graphics/painting-cat-circle.png" id="71_lm8nn"]
+[ext_resource type="Texture2D" uid="uid://jbyk1ebx3oyp" path="res://sprites/interior_objects/graphics/painting-frog-small.png" id="72_6gbnh"]
+[ext_resource type="Texture2D" uid="uid://wlo8lr3oqld4" path="res://sprites/interior_objects/graphics/paiting-cat-ok.png" id="73_87vxt"]
+[ext_resource type="Texture2D" uid="uid://c8oq52w6kd075" path="res://sprites/interior_objects/graphics/pen-cup-1.png" id="74_bwkci"]
+[ext_resource type="Texture2D" uid="uid://s61hfb8qtdcc" path="res://sprites/interior_objects/graphics/pen-cup.png" id="75_hecrq"]
+[ext_resource type="Texture2D" uid="uid://c5bvt4u1it101" path="res://sprites/interior_objects/graphics/plant-03.png" id="76_k4faj"]
+[ext_resource type="Texture2D" uid="uid://cxxcm5wvh05ts" path="res://sprites/interior_objects/graphics/plant-04.png" id="77_0nkhv"]
+[ext_resource type="Texture2D" uid="uid://bhehscutolctg" path="res://sprites/interior_objects/graphics/plant-05.png" id="78_ngqtp"]
+[ext_resource type="Texture2D" uid="uid://cj2kb037gbl14" path="res://sprites/interior_objects/graphics/plant-06.png" id="79_p5yph"]
+[ext_resource type="Texture2D" uid="uid://bexhlk2prhqk5" path="res://sprites/interior_objects/graphics/plant-tall-pot-01.png" id="80_iwdme"]
+[ext_resource type="Texture2D" uid="uid://beyahxf1y1t4r" path="res://sprites/interior_objects/graphics/plant-tall-pot-02.png" id="81_2xm2q"]
+[ext_resource type="Texture2D" uid="uid://cym63k1fki6d5" path="res://sprites/interior_objects/graphics/plant_pot_large.png" id="82_hum7g"]
+[ext_resource type="Texture2D" uid="uid://dhonx12xvl5wo" path="res://sprites/interior_objects/graphics/plant_pot_tall.png" id="83_x1hhj"]
+[ext_resource type="Texture2D" uid="uid://bqdjtw0w7pea7" path="res://sprites/interior_objects/graphics/pot-simple.png" id="84_ey2fx"]
+[ext_resource type="Texture2D" uid="uid://bon6l8wgadgvw" path="res://sprites/interior_objects/graphics/pot-with stove.png" id="85_kltkm"]
+[ext_resource type="Texture2D" uid="uid://dmvffft6naqdv" path="res://sprites/interior_objects/graphics/radio.png" id="86_gkfk0"]
+[ext_resource type="Texture2D" uid="uid://cr0ruwci7fhyq" path="res://sprites/interior_objects/graphics/reception-desk.png" id="87_nvwi6"]
+[ext_resource type="Texture2D" uid="uid://ml7j0iib5qek" path="res://sprites/interior_objects/graphics/stool.png" id="88_1jxwa"]
+[ext_resource type="Texture2D" uid="uid://bunc2gtujl4ki" path="res://sprites/interior_objects/graphics/stove-burner-fire.png" id="89_a2m8t"]
+[ext_resource type="Texture2D" uid="uid://k1a4thb2tjnm" path="res://sprites/interior_objects/graphics/tea-set.png" id="90_4mxf6"]
+[ext_resource type="Texture2D" uid="uid://cc0lx0rpok02k" path="res://sprites/interior_objects/graphics/wall- bookcase.png" id="91_s25u3"]
+[ext_resource type="Texture2D" uid="uid://cdl5bl003twai" path="res://sprites/interior_objects/graphics/wall-bookcase-end.png" id="92_xfd5m"]
+[ext_resource type="Texture2D" uid="uid://dj3op7crck3sq" path="res://sprites/interior_objects/graphics/wall-clock-red-small.png" id="93_gej0o"]
+[ext_resource type="Texture2D" uid="uid://cra2ci1fv8e6i" path="res://sprites/interior_objects/graphics/wall-end.png" id="94_2xofs"]
+[ext_resource type="Texture2D" uid="uid://3ugvoirrwojh" path="res://sprites/interior_objects/graphics/wall-green.png" id="95_knnxt"]
+[ext_resource type="Texture2D" uid="uid://crdt1bsc0uak8" path="res://sprites/interior_objects/graphics/wood-box.png" id="96_q5aed"]
+
+[node name="InteriorObjects" type="Control"]
+custom_minimum_size = Vector2(2048, 1000)
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+scale = Vector2(2, 2)
+metadata/import_ignore = false
+metadata/import_append = false
+
+[node name="ArmchairMoss" type="MarginContainer" parent="."]
+layout_mode = 0
+offset_right = 85.0
+offset_bottom = 79.0
+
+[node name="ArmchairMoss" type="Sprite2D" parent="ArmchairMoss"]
+position = Vector2(16, 16)
+texture = ExtResource("1_3v5j2")
+centered = false
+
+[node name="ArmchairRed" type="MarginContainer" parent="."]
+layout_mode = 0
+offset_left = 85.0
+offset_right = 170.0
+offset_bottom = 79.0
+
+[node name="ArmchairRed" type="Sprite2D" parent="ArmchairRed"]
+position = Vector2(16, 16)
+texture = ExtResource("2_xynb7")
+centered = false
+
+[node name="CatPaintingWarhol" type="MarginContainer" parent="."]
+layout_mode = 0
+offset_left = 170.0
+offset_right = 257.0
+offset_bottom = 95.0
+
+[node name="CatPaintingWarhol" type="Sprite2D" parent="CatPaintingWarhol"]
+position = Vector2(16, 16)
+texture = ExtResource("3_5bctb")
+centered = false
+
+[node name="CatPainting01" type="MarginContainer" parent="."]
+layout_mode = 0
+offset_left = 257.0
+offset_right = 357.0
+offset_bottom = 108.0
+
+[node name="CatPainting01" type="Sprite2D" parent="CatPainting01"]
+position = Vector2(16, 16)
+texture = ExtResource("4_0vrc6")
+centered = false
+
+[node name="CatPainting02" type="MarginContainer" parent="."]
+layout_mode = 0
+offset_left = 357.0
+offset_right = 457.0
+offset_bottom = 108.0
+
+[node name="CatPainting02" type="Sprite2D" parent="CatPainting02"]
+position = Vector2(16, 16)
+texture = ExtResource("5_jxp8y")
+centered = false
+
+[node name="CatPainting03" type="MarginContainer" parent="."]
+layout_mode = 0
+offset_left = 457.0
+offset_right = 557.0
+offset_bottom = 108.0
+
+[node name="CatPainting03" type="Sprite2D" parent="CatPainting03"]
+position = Vector2(16, 16)
+texture = ExtResource("6_l46mv")
+centered = false
+
+[node name="CatPainting04" type="MarginContainer" parent="."]
+layout_mode = 0
+offset_left = 557.0
+offset_right = 657.0
+offset_bottom = 108.0
+
+[node name="CatPainting04" type="Sprite2D" parent="CatPainting04"]
+position = Vector2(16, 16)
+texture = ExtResource("7_xhvhi")
+centered = false
+
+[node name="CatPaintingHorizontal" type="MarginContainer" parent="."]
+layout_mode = 0
+offset_left = 657.0
+offset_right = 893.0
+offset_bottom = 108.0
+
+[node name="CatPaintingHorizontal" type="Sprite2D" parent="CatPaintingHorizontal"]
+position = Vector2(16, 16)
+texture = ExtResource("8_ahnqw")
+centered = false
+
+[node name="Level1Office01ToExportDark5" type="MarginContainer" parent="."]
+layout_mode = 0
+offset_left = 893.0
+offset_right = 942.0
+offset_bottom = 97.0
+
+[node name="Level1Office01ToExportDark5" type="Sprite2D" parent="Level1Office01ToExportDark5"]
+position = Vector2(16, 16)
+texture = ExtResource("9_xp8g6")
+centered = false
+
+[node name="Level1Office01ToExportDark6" type="MarginContainer" parent="."]
+layout_mode = 0
+offset_left = 942.0
+offset_right = 991.0
+offset_bottom = 97.0
+
+[node name="Level1Office01ToExportDark6" type="Sprite2D" parent="Level1Office01ToExportDark6"]
+position = Vector2(16, 16)
+texture = ExtResource("10_e0mxj")
+centered = false
+
+[node name="PosterHangInThere" type="MarginContainer" parent="."]
+layout_mode = 0
+offset_left = 991.0
+offset_right = 1069.0
+offset_bottom = 114.0
+
+[node name="PosterHangInThere" type="Sprite2D" parent="PosterHangInThere"]
+position = Vector2(16, 16)
+texture = ExtResource("11_vtjcy")
+centered = false
+
+[node name="AbrstractPainting02" type="MarginContainer" parent="."]
+layout_mode = 0
+offset_left = 1069.0
+offset_right = 1305.0
+offset_bottom = 116.0
+
+[node name="AbrstractPainting02" type="Sprite2D" parent="AbrstractPainting02"]
+position = Vector2(16, 16)
+texture = ExtResource("12_p5k62")
+centered = false
+
+[node name="AbrstractPainting" type="MarginContainer" parent="."]
+layout_mode = 0
+offset_left = 1305.0
+offset_right = 1541.0
+offset_bottom = 119.0
+
+[node name="AbrstractPainting" type="Sprite2D" parent="AbrstractPainting"]
+position = Vector2(16, 16)
+texture = ExtResource("13_1fgu2")
+centered = false
+
+[node name="AppleFrameDesk" type="MarginContainer" parent="."]
+layout_mode = 0
+offset_left = 1541.0
+offset_right = 1583.0
+offset_bottom = 45.0
+
+[node name="AppleFrameDesk" type="Sprite2D" parent="AppleFrameDesk"]
+position = Vector2(16, 16)
+texture = ExtResource("14_1rd1k")
+centered = false
+
+[node name="ArmchairExecutive" type="MarginContainer" parent="."]
+layout_mode = 0
+offset_left = 1583.0
+offset_right = 1653.0
+offset_bottom = 91.0
+
+[node name="ArmchairExecutive" type="Sprite2D" parent="ArmchairExecutive"]
+position = Vector2(16, 16)
+texture = ExtResource("15_25y6c")
+centered = false
+
+[node name="ArmchairLobbyLeft" type="MarginContainer" parent="."]
+layout_mode = 0
+offset_left = 1653.0
+offset_right = 1746.0
+offset_bottom = 78.0
+
+[node name="ArmchairLobbyLeft" type="Sprite2D" parent="ArmchairLobbyLeft"]
+position = Vector2(16, 16)
+texture = ExtResource("16_tl526")
+centered = false
+
+[node name="BarrelFishTag" type="MarginContainer" parent="."]
+layout_mode = 0
+offset_left = 1746.0
+offset_right = 1811.0
+offset_bottom = 73.0
+
+[node name="BarrelFishTag" type="Sprite2D" parent="BarrelFishTag"]
+position = Vector2(16, 16)
+texture = ExtResource("17_jkumt")
+centered = false
+
+[node name="BarrelSimple" type="MarginContainer" parent="."]
+layout_mode = 0
+offset_left = 1811.0
+offset_right = 1876.0
+offset_bottom = 73.0
+
+[node name="BarrelSimple" type="Sprite2D" parent="BarrelSimple"]
+position = Vector2(16, 16)
+texture = ExtResource("18_nlapj")
+centered = false
+
+[node name="BonsaiExtraSmall" type="MarginContainer" parent="."]
+layout_mode = 0
+offset_left = 1876.0
+offset_right = 1931.0
+offset_bottom = 51.0
+
+[node name="BonsaiExtraSmall" type="Sprite2D" parent="BonsaiExtraSmall"]
+position = Vector2(16, 16)
+texture = ExtResource("19_du5w1")
+centered = false
+
+[node name="BonsaiSmall" type="MarginContainer" parent="."]
+layout_mode = 0
+offset_top = 119.0
+offset_right = 77.0
+offset_bottom = 189.0
+
+[node name="BonsaiSmall" type="Sprite2D" parent="BonsaiSmall"]
+position = Vector2(16, 16)
+texture = ExtResource("20_wy6uk")
+centered = false
+
+[node name="BookOpen" type="MarginContainer" parent="."]
+layout_mode = 0
+offset_left = 77.0
+offset_top = 119.0
+offset_right = 129.0
+offset_bottom = 155.0
+
+[node name="BookOpen" type="Sprite2D" parent="BookOpen"]
+position = Vector2(16, 16)
+texture = ExtResource("21_d0thy")
+centered = false
+
+[node name="BookcaseGreenFlat" type="MarginContainer" parent="."]
+layout_mode = 0
+offset_left = 129.0
+offset_top = 119.0
+offset_right = 241.0
+offset_bottom = 282.0
+
+[node name="BookcaseGreenFlat" type="Sprite2D" parent="BookcaseGreenFlat"]
+position = Vector2(16, 16)
+texture = ExtResource("22_3v28a")
+centered = false
+
+[node name="BooksHorizontal1" type="MarginContainer" parent="."]
+layout_mode = 0
+offset_left = 241.0
+offset_top = 119.0
+offset_right = 290.0
+offset_bottom = 167.0
+
+[node name="BooksHorizontal1" type="Sprite2D" parent="BooksHorizontal1"]
+position = Vector2(16, 16)
+texture = ExtResource("23_dtk83")
+centered = false
+
+[node name="BooksHorizontal2" type="MarginContainer" parent="."]
+layout_mode = 0
+offset_left = 290.0
+offset_top = 119.0
+offset_right = 339.0
+offset_bottom = 174.0
+
+[node name="BooksHorizontal2" type="Sprite2D" parent="BooksHorizontal2"]
+position = Vector2(16, 16)
+texture = ExtResource("24_ixfer")
+centered = false
+
+[node name="BooksHorizontal3" type="MarginContainer" parent="."]
+layout_mode = 0
+offset_left = 339.0
+offset_top = 119.0
+offset_right = 391.0
+offset_bottom = 165.0
+
+[node name="BooksHorizontal3" type="Sprite2D" parent="BooksHorizontal3"]
+position = Vector2(16, 16)
+texture = ExtResource("25_5b1l3")
+centered = false
+
+[node name="BooksHorizontal4" type="MarginContainer" parent="."]
+layout_mode = 0
+offset_left = 391.0
+offset_top = 119.0
+offset_right = 452.0
+offset_bottom = 170.0
+
+[node name="BooksHorizontal4" type="Sprite2D" parent="BooksHorizontal4"]
+position = Vector2(16, 16)
+texture = ExtResource("26_8y2ap")
+centered = false
+
+[node name="BooksHorizontal5" type="MarginContainer" parent="."]
+layout_mode = 0
+offset_left = 452.0
+offset_top = 119.0
+offset_right = 513.0
+offset_bottom = 174.0
+
+[node name="BooksHorizontal5" type="Sprite2D" parent="BooksHorizontal5"]
+position = Vector2(16, 16)
+texture = ExtResource("27_u6ein")
+centered = false
+
+[node name="BooksHorizontal6" type="MarginContainer" parent="."]
+layout_mode = 0
+offset_left = 513.0
+offset_top = 119.0
+offset_right = 579.0
+offset_bottom = 167.0
+
+[node name="BooksHorizontal6" type="Sprite2D" parent="BooksHorizontal6"]
+position = Vector2(16, 16)
+texture = ExtResource("28_cc7t5")
+centered = false
+
+[node name="BooksHorizontal7" type="MarginContainer" parent="."]
+layout_mode = 0
+offset_left = 579.0
+offset_top = 119.0
+offset_right = 618.0
+offset_bottom = 167.0
+
+[node name="BooksHorizontal7" type="Sprite2D" parent="BooksHorizontal7"]
+position = Vector2(16, 16)
+texture = ExtResource("29_ycqer")
+centered = false
+
+[node name="BooksHorizontal8" type="MarginContainer" parent="."]
+layout_mode = 0
+offset_left = 618.0
+offset_top = 119.0
+offset_right = 663.0
+offset_bottom = 167.0
+
+[node name="BooksHorizontal8" type="Sprite2D" parent="BooksHorizontal8"]
+position = Vector2(16, 16)
+texture = ExtResource("30_nthyt")
+centered = false
+
+[node name="BooksHorizontal" type="MarginContainer" parent="."]
+layout_mode = 0
+offset_left = 663.0
+offset_top = 119.0
+offset_right = 729.0
+offset_bottom = 165.0
+
+[node name="BooksHorizontal" type="Sprite2D" parent="BooksHorizontal"]
+position = Vector2(16, 16)
+texture = ExtResource("31_nfjc2")
+centered = false
+
+[node name="BooksShelf" type="MarginContainer" parent="."]
+layout_mode = 0
+offset_left = 729.0
+offset_top = 119.0
+offset_right = 806.0
+offset_bottom = 174.0
+
+[node name="BooksShelf" type="Sprite2D" parent="BooksShelf"]
+position = Vector2(16, 16)
+texture = ExtResource("32_gchoy")
+centered = false
+
+[node name="BooksStackedVertical1" type="MarginContainer" parent="."]
+layout_mode = 0
+offset_left = 806.0
+offset_top = 119.0
+offset_right = 852.0
+offset_bottom = 162.0
+
+[node name="BooksStackedVertical1" type="Sprite2D" parent="BooksStackedVertical1"]
+position = Vector2(16, 16)
+texture = ExtResource("33_jpy3a")
+centered = false
+
+[node name="BooksStackedVertical2" type="MarginContainer" parent="."]
+layout_mode = 0
+offset_left = 852.0
+offset_top = 119.0
+offset_right = 906.0
+offset_bottom = 164.0
+
+[node name="BooksStackedVertical2" type="Sprite2D" parent="BooksStackedVertical2"]
+position = Vector2(16, 16)
+texture = ExtResource("34_sb8wg")
+centered = false
+
+[node name="BooksStackedVertical3" type="MarginContainer" parent="."]
+layout_mode = 0
+offset_left = 906.0
+offset_top = 119.0
+offset_right = 952.0
+offset_bottom = 162.0
+
+[node name="BooksStackedVertical3" type="Sprite2D" parent="BooksStackedVertical3"]
+position = Vector2(16, 16)
+texture = ExtResource("35_og8b1")
+centered = false
+
+[node name="BooksStackedVertical" type="MarginContainer" parent="."]
+layout_mode = 0
+offset_left = 952.0
+offset_top = 119.0
+offset_right = 998.0
+offset_bottom = 162.0
+
+[node name="BooksStackedVertical" type="Sprite2D" parent="BooksStackedVertical"]
+position = Vector2(16, 16)
+texture = ExtResource("36_m0ftb")
+centered = false
+
+[node name="CabinetSmallBooks" type="MarginContainer" parent="."]
+layout_mode = 0
+offset_left = 998.0
+offset_top = 119.0
+offset_right = 1062.0
+offset_bottom = 193.0
+
+[node name="CabinetSmallBooks" type="Sprite2D" parent="CabinetSmallBooks"]
+position = Vector2(16, 16)
+texture = ExtResource("37_nuwtm")
+centered = false
+
+[node name="CabinetSmallRadio" type="MarginContainer" parent="."]
+layout_mode = 0
+offset_left = 1062.0
+offset_top = 119.0
+offset_right = 1126.0
+offset_bottom = 202.0
+
+[node name="CabinetSmallRadio" type="Sprite2D" parent="CabinetSmallRadio"]
+position = Vector2(16, 16)
+texture = ExtResource("38_capls")
+centered = false
+
+[node name="CabinetTall" type="MarginContainer" parent="."]
+layout_mode = 0
+offset_left = 1126.0
+offset_top = 119.0
+offset_right = 1186.0
+offset_bottom = 212.0
+
+[node name="CabinetTall" type="Sprite2D" parent="CabinetTall"]
+position = Vector2(16, 16)
+texture = ExtResource("39_ngred")
+centered = false
+
+[node name="CarpetCircleRed" type="MarginContainer" parent="."]
+layout_mode = 0
+offset_left = 1186.0
+offset_top = 119.0
+offset_right = 1734.0
+offset_bottom = 204.0
+
+[node name="CarpetCircleRed" type="Sprite2D" parent="CarpetCircleRed"]
+position = Vector2(16, 16)
+texture = ExtResource("40_eiyhv")
+centered = false
+
+[node name="ClothesHanger1" type="MarginContainer" parent="."]
+layout_mode = 0
+offset_left = 1734.0
+offset_top = 119.0
+offset_right = 1783.0
+offset_bottom = 216.0
+
+[node name="ClothesHanger1" type="Sprite2D" parent="ClothesHanger1"]
+position = Vector2(16, 16)
+texture = ExtResource("41_1mhnb")
+centered = false
+
+[node name="ClothesHanger2" type="MarginContainer" parent="."]
+layout_mode = 0
+offset_left = 1783.0
+offset_top = 119.0
+offset_right = 1832.0
+offset_bottom = 216.0
+
+[node name="ClothesHanger2" type="Sprite2D" parent="ClothesHanger2"]
+position = Vector2(16, 16)
+texture = ExtResource("42_3rfv5")
+centered = false
+
+[node name="CoffeePot" type="MarginContainer" parent="."]
+layout_mode = 0
+offset_left = 1832.0
+offset_top = 119.0
+offset_right = 1879.0
+offset_bottom = 165.0
+
+[node name="CoffeePot" type="Sprite2D" parent="CoffeePot"]
+position = Vector2(16, 16)
+texture = ExtResource("43_4y6cd")
+centered = false
+
+[node name="CorkBoard" type="MarginContainer" parent="."]
+layout_mode = 0
+offset_left = 1879.0
+offset_top = 119.0
+offset_right = 1971.0
+offset_bottom = 187.0
+
+[node name="CorkBoard" type="Sprite2D" parent="CorkBoard"]
+position = Vector2(16, 16)
+texture = ExtResource("44_erbwp")
+centered = false
+
+[node name="CouchBlueWithBlanket" type="MarginContainer" parent="."]
+layout_mode = 0
+offset_top = 282.0
+offset_right = 119.0
+offset_bottom = 362.0
+
+[node name="CouchBlueWithBlanket" type="Sprite2D" parent="CouchBlueWithBlanket"]
+position = Vector2(16, 16)
+texture = ExtResource("45_k1bxu")
+centered = false
+
+[node name="CouchLobbyPillow" type="MarginContainer" parent="."]
+layout_mode = 0
+offset_left = 119.0
+offset_top = 282.0
+offset_right = 271.0
+offset_bottom = 363.0
+
+[node name="CouchLobbyPillow" type="Sprite2D" parent="CouchLobbyPillow"]
+position = Vector2(16, 16)
+texture = ExtResource("46_u63qa")
+centered = false
+
+[node name="CouchLobbyRedPillow" type="MarginContainer" parent="."]
+layout_mode = 0
+offset_left = 271.0
+offset_top = 282.0
+offset_right = 423.0
+offset_bottom = 363.0
+
+[node name="CouchLobbyRedPillow" type="Sprite2D" parent="CouchLobbyRedPillow"]
+position = Vector2(16, 16)
+texture = ExtResource("47_bhh4k")
+centered = false
+
+[node name="CouchLobbySimple" type="MarginContainer" parent="."]
+layout_mode = 0
+offset_left = 423.0
+offset_top = 282.0
+offset_right = 575.0
+offset_bottom = 363.0
+
+[node name="CouchLobbySimple" type="Sprite2D" parent="CouchLobbySimple"]
+position = Vector2(16, 16)
+texture = ExtResource("48_yid71")
+centered = false
+
+[node name="CouchMoss" type="MarginContainer" parent="."]
+layout_mode = 0
+offset_left = 575.0
+offset_top = 282.0
+offset_right = 694.0
+offset_bottom = 361.0
+
+[node name="CouchMoss" type="Sprite2D" parent="CouchMoss"]
+position = Vector2(16, 16)
+texture = ExtResource("49_p7spg")
+centered = false
+
+[node name="DeskExpensive" type="MarginContainer" parent="."]
+layout_mode = 0
+offset_left = 694.0
+offset_top = 282.0
+offset_right = 882.0
+offset_bottom = 358.0
+
+[node name="DeskExpensive" type="Sprite2D" parent="DeskExpensive"]
+position = Vector2(16, 16)
+texture = ExtResource("50_bg2vw")
+centered = false
+
+[node name="DeskOffice01" type="MarginContainer" parent="."]
+layout_mode = 0
+offset_left = 882.0
+offset_top = 282.0
+offset_right = 979.0
+offset_bottom = 368.0
+
+[node name="DeskOffice01" type="Sprite2D" parent="DeskOffice01"]
+position = Vector2(16, 16)
+texture = ExtResource("51_tqnwe")
+centered = false
+
+[node name="DeskOffice02" type="MarginContainer" parent="."]
+layout_mode = 0
+offset_left = 979.0
+offset_top = 282.0
+offset_right = 1073.0
+offset_bottom = 373.0
+
+[node name="DeskOffice02" type="Sprite2D" parent="DeskOffice02"]
+position = Vector2(16, 16)
+texture = ExtResource("52_7fftt")
+centered = false
+
+[node name="Dishwasher" type="MarginContainer" parent="."]
+layout_mode = 0
+offset_left = 1073.0
+offset_top = 282.0
+offset_right = 1144.0
+offset_bottom = 363.0
+
+[node name="Dishwasher" type="Sprite2D" parent="Dishwasher"]
+position = Vector2(16, 16)
+texture = ExtResource("53_q34fs")
+centered = false
+
+[node name="FireExstinguisher" type="MarginContainer" parent="."]
+layout_mode = 0
+offset_left = 1144.0
+offset_top = 282.0
+offset_right = 1194.0
+offset_bottom = 339.0
+
+[node name="FireExstinguisher" type="Sprite2D" parent="FireExstinguisher"]
+position = Vector2(16, 16)
+texture = ExtResource("54_4455x")
+centered = false
+
+[node name="FireStove1" type="MarginContainer" parent="."]
+layout_mode = 0
+offset_left = 1194.0
+offset_top = 282.0
+offset_right = 1251.0
+offset_bottom = 325.0
+
+[node name="FireStove1" type="Sprite2D" parent="FireStove1"]
+position = Vector2(16, 16)
+texture = ExtResource("55_nosdq")
+centered = false
+
+[node name="FireStove2" type="MarginContainer" parent="."]
+layout_mode = 0
+offset_left = 1251.0
+offset_top = 282.0
+offset_right = 1313.0
+offset_bottom = 325.0
+
+[node name="FireStove2" type="Sprite2D" parent="FireStove2"]
+position = Vector2(16, 16)
+texture = ExtResource("56_h8qkg")
+centered = false
+
+[node name="FrenchPress" type="MarginContainer" parent="."]
+layout_mode = 0
+offset_left = 1313.0
+offset_top = 282.0
+offset_right = 1356.0
+offset_bottom = 335.0
+
+[node name="FrenchPress" type="Sprite2D" parent="FrenchPress"]
+position = Vector2(16, 16)
+texture = ExtResource("57_eim26")
+centered = false
+
+[node name="FridgeYellow" type="MarginContainer" parent="."]
+layout_mode = 0
+offset_left = 1356.0
+offset_top = 282.0
+offset_right = 1430.0
+offset_bottom = 405.0
+
+[node name="FridgeYellow" type="Sprite2D" parent="FridgeYellow"]
+position = Vector2(16, 16)
+texture = ExtResource("58_lp4jv")
+centered = false
+
+[node name="FrogButcher" type="MarginContainer" parent="."]
+layout_mode = 0
+offset_left = 1430.0
+offset_top = 282.0
+offset_right = 1537.0
+offset_bottom = 382.0
+
+[node name="FrogButcher" type="Sprite2D" parent="FrogButcher"]
+position = Vector2(16, 16)
+texture = ExtResource("59_6uxl3")
+centered = false
+
+[node name="GlobeStand" type="MarginContainer" parent="."]
+layout_mode = 0
+offset_left = 1537.0
+offset_top = 282.0
+offset_right = 1598.0
+offset_bottom = 378.0
+
+[node name="GlobeStand" type="Sprite2D" parent="GlobeStand"]
+position = Vector2(16, 16)
+texture = ExtResource("60_gex2l")
+centered = false
+
+[node name="KitchenCabinet" type="MarginContainer" parent="."]
+layout_mode = 0
+offset_left = 1598.0
+offset_top = 282.0
+offset_right = 1665.0
+offset_bottom = 363.0
+
+[node name="KitchenCabinet" type="Sprite2D" parent="KitchenCabinet"]
+position = Vector2(16, 16)
+texture = ExtResource("61_t0srw")
+centered = false
+
+[node name="KnivesWall" type="MarginContainer" parent="."]
+layout_mode = 0
+offset_left = 1665.0
+offset_top = 282.0
+offset_right = 1737.0
+offset_bottom = 346.0
+
+[node name="KnivesWall" type="Sprite2D" parent="KnivesWall"]
+position = Vector2(16, 16)
+texture = ExtResource("62_hsqnj")
+centered = false
+
+[node name="LampFancy" type="MarginContainer" parent="."]
+layout_mode = 0
+offset_left = 1737.0
+offset_top = 282.0
+offset_right = 1802.0
+offset_bottom = 346.0
+
+[node name="LampFancy" type="Sprite2D" parent="LampFancy"]
+position = Vector2(16, 16)
+texture = ExtResource("63_kj03s")
+centered = false
+
+[node name="LampOffice" type="MarginContainer" parent="."]
+layout_mode = 0
+offset_left = 1802.0
+offset_top = 282.0
+offset_right = 1853.0
+offset_bottom = 343.0
+
+[node name="LampOffice" type="Sprite2D" parent="LampOffice"]
+position = Vector2(16, 16)
+texture = ExtResource("64_v2vr7")
+centered = false
+
+[node name="MugGreenSmall" type="MarginContainer" parent="."]
+layout_mode = 0
+offset_left = 1853.0
+offset_top = 282.0
+offset_right = 1896.0
+offset_bottom = 319.0
+
+[node name="MugGreenSmall" type="Sprite2D" parent="MugGreenSmall"]
+position = Vector2(16, 16)
+texture = ExtResource("65_mrmso")
+centered = false
+
+[node name="MugGreenTall" type="MarginContainer" parent="."]
+layout_mode = 0
+offset_left = 1896.0
+offset_top = 282.0
+offset_right = 1938.0
+offset_bottom = 324.0
+
+[node name="MugGreenTall" type="Sprite2D" parent="MugGreenTall"]
+position = Vector2(16, 16)
+texture = ExtResource("66_5cd4l")
+centered = false
+
+[node name="MugRed" type="MarginContainer" parent="."]
+layout_mode = 0
+offset_top = 445.0
+offset_right = 42.0
+offset_bottom = 485.0
+
+[node name="MugRed" type="Sprite2D" parent="MugRed"]
+position = Vector2(16, 16)
+texture = ExtResource("67_o43ya")
+centered = false
+
+[node name="MugYellowSmall" type="MarginContainer" parent="."]
+layout_mode = 0
+offset_left = 42.0
+offset_top = 445.0
+offset_right = 84.0
+offset_bottom = 482.0
+
+[node name="MugYellowSmall" type="Sprite2D" parent="MugYellowSmall"]
+position = Vector2(16, 16)
+texture = ExtResource("68_qqgfq")
+centered = false
+
+[node name="Oven" type="MarginContainer" parent="."]
+layout_mode = 0
+offset_left = 84.0
+offset_top = 445.0
+offset_right = 146.0
+offset_bottom = 502.0
+
+[node name="Oven" type="Sprite2D" parent="Oven"]
+position = Vector2(16, 16)
+texture = ExtResource("69_nrt1p")
+centered = false
+
+[node name="PaintingBoat" type="MarginContainer" parent="."]
+layout_mode = 0
+offset_left = 146.0
+offset_top = 445.0
+offset_right = 231.0
+offset_bottom = 508.0
+
+[node name="PaintingBoat" type="Sprite2D" parent="PaintingBoat"]
+position = Vector2(16, 16)
+texture = ExtResource("70_d321f")
+centered = false
+
+[node name="PaintingCatCircle" type="MarginContainer" parent="."]
+layout_mode = 0
+offset_left = 231.0
+offset_top = 445.0
+offset_right = 293.0
+offset_bottom = 507.0
+
+[node name="PaintingCatCircle" type="Sprite2D" parent="PaintingCatCircle"]
+position = Vector2(16, 16)
+texture = ExtResource("71_lm8nn")
+centered = false
+
+[node name="PaintingFrogSmall" type="MarginContainer" parent="."]
+layout_mode = 0
+offset_left = 293.0
+offset_top = 445.0
+offset_right = 352.0
+offset_bottom = 503.0
+
+[node name="PaintingFrogSmall" type="Sprite2D" parent="PaintingFrogSmall"]
+position = Vector2(16, 16)
+texture = ExtResource("72_6gbnh")
+centered = false
+
+[node name="PaitingCatOk" type="MarginContainer" parent="."]
+layout_mode = 0
+offset_left = 352.0
+offset_top = 445.0
+offset_right = 408.0
+offset_bottom = 513.0
+
+[node name="PaitingCatOk" type="Sprite2D" parent="PaitingCatOk"]
+position = Vector2(16, 16)
+texture = ExtResource("73_87vxt")
+centered = false
+
+[node name="PenCup1" type="MarginContainer" parent="."]
+layout_mode = 0
+offset_left = 408.0
+offset_top = 445.0
+offset_right = 450.0
+offset_bottom = 491.0
+
+[node name="PenCup1" type="Sprite2D" parent="PenCup1"]
+position = Vector2(16, 16)
+texture = ExtResource("74_bwkci")
+centered = false
+
+[node name="PenCup" type="MarginContainer" parent="."]
+layout_mode = 0
+offset_left = 450.0
+offset_top = 445.0
+offset_right = 490.0
+offset_bottom = 491.0
+
+[node name="PenCup" type="Sprite2D" parent="PenCup"]
+position = Vector2(16, 16)
+texture = ExtResource("75_hecrq")
+centered = false
+
+[node name="Plant03" type="MarginContainer" parent="."]
+layout_mode = 0
+offset_left = 490.0
+offset_top = 445.0
+offset_right = 579.0
+offset_bottom = 525.0
+
+[node name="Plant03" type="Sprite2D" parent="Plant03"]
+position = Vector2(16, 16)
+texture = ExtResource("76_k4faj")
+centered = false
+
+[node name="Plant04" type="MarginContainer" parent="."]
+layout_mode = 0
+offset_left = 579.0
+offset_top = 445.0
+offset_right = 649.0
+offset_bottom = 542.0
+
+[node name="Plant04" type="Sprite2D" parent="Plant04"]
+position = Vector2(16, 16)
+texture = ExtResource("77_0nkhv")
+centered = false
+
+[node name="Plant05" type="MarginContainer" parent="."]
+layout_mode = 0
+offset_left = 649.0
+offset_top = 445.0
+offset_right = 737.0
+offset_bottom = 563.0
+
+[node name="Plant05" type="Sprite2D" parent="Plant05"]
+position = Vector2(16, 16)
+texture = ExtResource("78_ngqtp")
+centered = false
+
+[node name="Plant06" type="MarginContainer" parent="."]
+layout_mode = 0
+offset_left = 737.0
+offset_top = 445.0
+offset_right = 819.0
+offset_bottom = 540.0
+
+[node name="Plant06" type="Sprite2D" parent="Plant06"]
+position = Vector2(16, 16)
+texture = ExtResource("79_p5yph")
+centered = false
+
+[node name="PlantTallPot01" type="MarginContainer" parent="."]
+layout_mode = 0
+offset_left = 819.0
+offset_top = 445.0
+offset_right = 941.0
+offset_bottom = 629.0
+
+[node name="PlantTallPot01" type="Sprite2D" parent="PlantTallPot01"]
+position = Vector2(16, 16)
+texture = ExtResource("80_iwdme")
+centered = false
+
+[node name="PlantTallPot02" type="MarginContainer" parent="."]
+layout_mode = 0
+offset_left = 941.0
+offset_top = 445.0
+offset_right = 1066.0
+offset_bottom = 625.0
+
+[node name="PlantTallPot02" type="Sprite2D" parent="PlantTallPot02"]
+position = Vector2(16, 16)
+texture = ExtResource("81_2xm2q")
+centered = false
+
+[node name="PlantPotLarge" type="MarginContainer" parent="."]
+layout_mode = 0
+offset_left = 1066.0
+offset_top = 445.0
+offset_right = 1196.0
+offset_bottom = 553.0
+
+[node name="PlantPotLarge" type="Sprite2D" parent="PlantPotLarge"]
+position = Vector2(16, 16)
+texture = ExtResource("82_hum7g")
+centered = false
+
+[node name="PlantPotTall" type="MarginContainer" parent="."]
+layout_mode = 0
+offset_left = 1196.0
+offset_top = 445.0
+offset_right = 1253.0
+offset_bottom = 557.0
+
+[node name="PlantPotTall" type="Sprite2D" parent="PlantPotTall"]
+position = Vector2(16, 16)
+texture = ExtResource("83_x1hhj")
+centered = false
+
+[node name="PotSimple" type="MarginContainer" parent="."]
+layout_mode = 0
+offset_left = 1253.0
+offset_top = 445.0
+offset_right = 1316.0
+offset_bottom = 502.0
+
+[node name="PotSimple" type="Sprite2D" parent="PotSimple"]
+position = Vector2(16, 16)
+texture = ExtResource("84_ey2fx")
+centered = false
+
+[node name="PotWithStove" type="MarginContainer" parent="."]
+layout_mode = 0
+offset_left = 1316.0
+offset_top = 445.0
+offset_right = 1379.0
+offset_bottom = 512.0
+
+[node name="PotWithStove" type="Sprite2D" parent="PotWithStove"]
+position = Vector2(16, 16)
+texture = ExtResource("85_kltkm")
+centered = false
+
+[node name="Radio" type="MarginContainer" parent="."]
+layout_mode = 0
+offset_left = 1379.0
+offset_top = 445.0
+offset_right = 1431.0
+offset_bottom = 501.0
+
+[node name="Radio" type="Sprite2D" parent="Radio"]
+position = Vector2(16, 16)
+texture = ExtResource("86_gkfk0")
+centered = false
+
+[node name="ReceptionDesk" type="MarginContainer" parent="."]
+layout_mode = 0
+offset_left = 1431.0
+offset_top = 445.0
+offset_right = 1692.0
+offset_bottom = 520.0
+
+[node name="ReceptionDesk" type="Sprite2D" parent="ReceptionDesk"]
+position = Vector2(16, 16)
+texture = ExtResource("87_nvwi6")
+centered = false
+
+[node name="Stool" type="MarginContainer" parent="."]
+layout_mode = 0
+offset_left = 1692.0
+offset_top = 445.0
+offset_right = 1743.0
+offset_bottom = 512.0
+
+[node name="Stool" type="Sprite2D" parent="Stool"]
+position = Vector2(16, 16)
+texture = ExtResource("88_1jxwa")
+centered = false
+
+[node name="StoveBurnerFire" type="MarginContainer" parent="."]
+layout_mode = 0
+offset_left = 1743.0
+offset_top = 445.0
+offset_right = 1804.0
+offset_bottom = 487.0
+
+[node name="StoveBurnerFire" type="Sprite2D" parent="StoveBurnerFire"]
+position = Vector2(16, 16)
+texture = ExtResource("89_a2m8t")
+centered = false
+
+[node name="TeaSet" type="MarginContainer" parent="."]
+layout_mode = 0
+offset_left = 1804.0
+offset_top = 445.0
+offset_right = 1860.0
+offset_bottom = 499.0
+
+[node name="TeaSet" type="Sprite2D" parent="TeaSet"]
+position = Vector2(16, 16)
+texture = ExtResource("90_4mxf6")
+centered = false
+
+[node name="WallBookcase" type="MarginContainer" parent="."]
+layout_mode = 0
+offset_left = 1860.0
+offset_top = 445.0
+offset_right = 2031.0
+offset_bottom = 759.0
+
+[node name="WallBookcase" type="Sprite2D" parent="WallBookcase"]
+position = Vector2(16, 16)
+texture = ExtResource("91_s25u3")
+centered = false
+
+[node name="WallBookcaseEnd" type="MarginContainer" parent="."]
+layout_mode = 0
+offset_top = 629.0
+offset_right = 220.0
+offset_bottom = 999.0
+
+[node name="WallBookcaseEnd" type="Sprite2D" parent="WallBookcaseEnd"]
+position = Vector2(16, 16)
+texture = ExtResource("92_xfd5m")
+centered = false
+
+[node name="WallClockRedSmall" type="MarginContainer" parent="."]
+layout_mode = 0
+offset_left = 220.0
+offset_top = 629.0
+offset_right = 267.0
+offset_bottom = 676.0
+
+[node name="WallClockRedSmall" type="Sprite2D" parent="WallClockRedSmall"]
+position = Vector2(16, 16)
+texture = ExtResource("93_gej0o")
+centered = false
+
+[node name="WallEnd" type="MarginContainer" parent="."]
+layout_mode = 0
+offset_left = 267.0
+offset_top = 629.0
+offset_right = 348.0
+offset_bottom = 989.0
+
+[node name="WallEnd" type="Sprite2D" parent="WallEnd"]
+position = Vector2(16, 16)
+texture = ExtResource("94_2xofs")
+centered = false
+
+[node name="WallGreen" type="MarginContainer" parent="."]
+layout_mode = 0
+offset_left = 348.0
+offset_top = 629.0
+offset_right = 482.0
+offset_bottom = 943.0
+
+[node name="WallGreen" type="Sprite2D" parent="WallGreen"]
+position = Vector2(16, 16)
+texture = ExtResource("95_knnxt")
+centered = false
+
+[node name="WoodBox" type="MarginContainer" parent="."]
+layout_mode = 0
+offset_left = 482.0
+offset_top = 629.0
+offset_right = 534.0
+offset_bottom = 671.0
+
+[node name="WoodBox" type="Sprite2D" parent="WoodBox"]
+position = Vector2(16, 16)
+texture = ExtResource("96_q5aed")
+centered = false

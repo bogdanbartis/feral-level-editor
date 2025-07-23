@@ -1,0 +1,519 @@
+[gd_scene load_steps=41 format=3 uid="uid://cqcg4nnoero6h"]
+
+[ext_resource type="Texture2D" uid="uid://daimwsb52ct5e" path="res://sprites/city_environment/graphics/Outside_Building_windows.png" id="1_nyr1u"]
+[ext_resource type="Texture2D" uid="uid://ddcrlwxhitrh0" path="res://sprites/city_environment/graphics/carpet-large.png" id="2_yfn3q"]
+[ext_resource type="Texture2D" uid="uid://bw10rd8gxlo1h" path="res://sprites/city_environment/graphics/carpet-tile.png" id="3_ewekm"]
+[ext_resource type="Texture2D" uid="uid://dcxiacwyd5lnv" path="res://sprites/city_environment/graphics/ceeling-concrete-large.png" id="4_gioua"]
+[ext_resource type="Texture2D" uid="uid://cd7nlodty3h8m" path="res://sprites/city_environment/graphics/ceeling-concrete-tile.png" id="5_uy7i6"]
+[ext_resource type="Texture2D" uid="uid://cg6qxy5fxm4q5" path="res://sprites/city_environment/graphics/checkered-red-tiles.png" id="6_syf6j"]
+[ext_resource type="Texture2D" uid="uid://bf78u3manqnl" path="res://sprites/city_environment/graphics/concrete-floor-large.png" id="7_p67db"]
+[ext_resource type="Texture2D" uid="uid://c7lx8hkq78834" path="res://sprites/city_environment/graphics/concrete-floor-tile.png" id="8_hwo2i"]
+[ext_resource type="Texture2D" uid="uid://degmjnyygykxe" path="res://sprites/city_environment/graphics/concrete-wall-01.png" id="9_abds0"]
+[ext_resource type="Texture2D" uid="uid://nbu5tymbo65s" path="res://sprites/city_environment/graphics/concrete-wall-dark.png" id="10_2rqkd"]
+[ext_resource type="Texture2D" uid="uid://dvnaveifrkdr7" path="res://sprites/city_environment/graphics/concrete-wall.png" id="11_oh40g"]
+[ext_resource type="Texture2D" uid="uid://73n4vrix5e1t" path="res://sprites/city_environment/graphics/door-inside.png" id="12_03ugc"]
+[ext_resource type="Texture2D" uid="uid://dc4e6jcex557f" path="res://sprites/city_environment/graphics/door-outside-open.png" id="13_6hnle"]
+[ext_resource type="Texture2D" uid="uid://c4uf43x6kdd71" path="res://sprites/city_environment/graphics/exit.png" id="14_ug71b"]
+[ext_resource type="Texture2D" uid="uid://cuvt0rjwgn0m8" path="res://sprites/city_environment/graphics/lift-outside.png" id="15_2jqvy"]
+[ext_resource type="Texture2D" uid="uid://b2ay5ebplfn0d" path="res://sprites/city_environment/graphics/pipes-large.png" id="16_nu3tr"]
+[ext_resource type="Texture2D" uid="uid://d15s1jcsox6s1" path="res://sprites/city_environment/graphics/pipes-simple.png" id="17_qt761"]
+[ext_resource type="Texture2D" uid="uid://ckmngk18o57u" path="res://sprites/city_environment/graphics/pipes-tap.png" id="18_cgxom"]
+[ext_resource type="Texture2D" uid="uid://plk7fjjj2smt" path="res://sprites/city_environment/graphics/roof-end-left.png" id="19_qsc5m"]
+[ext_resource type="Texture2D" uid="uid://dqmas7ba5cbrj" path="res://sprites/city_environment/graphics/roof-end-right.png" id="20_qfq52"]
+[ext_resource type="Texture2D" uid="uid://mqxvvm3fs307" path="res://sprites/city_environment/graphics/roof-full-for shop.png" id="21_8yvvu"]
+[ext_resource type="Texture2D" uid="uid://chcdbd5ymum6m" path="res://sprites/city_environment/graphics/roof-middle-flat.png" id="22_5ffps"]
+[ext_resource type="Texture2D" uid="uid://cdkxiqyxvaabh" path="res://sprites/city_environment/graphics/roof-middle-tiles.png" id="23_7axyp"]
+[ext_resource type="Texture2D" uid="uid://c0vt8seskye2w" path="res://sprites/city_environment/graphics/roof-panel.png" id="24_w75jv"]
+[ext_resource type="Texture2D" uid="uid://cjbmxjoo458p2" path="res://sprites/city_environment/graphics/sidewalk-large.png" id="25_bg2op"]
+[ext_resource type="Texture2D" uid="uid://do0e3n3ar2lik" path="res://sprites/city_environment/graphics/sidewalk-tile.png" id="26_cig44"]
+[ext_resource type="Texture2D" uid="uid://dop54a3x6xpqg" path="res://sprites/city_environment/graphics/vent.png" id="27_entqw"]
+[ext_resource type="Texture2D" uid="uid://bniiyrapxwple" path="res://sprites/city_environment/graphics/wall-concrete-large-H-large.png" id="28_dw77a"]
+[ext_resource type="Texture2D" uid="uid://bcmvhado0o8sh" path="res://sprites/city_environment/graphics/wall-concrete-large-H-tile.png" id="29_7v4d7"]
+[ext_resource type="Texture2D" uid="uid://cydli01hqv3l8" path="res://sprites/city_environment/graphics/wall-concrete-medium-H-tile.png" id="30_iwuhu"]
+[ext_resource type="Texture2D" uid="uid://cmjg6sj301x2i" path="res://sprites/city_environment/graphics/wall-concrete-medium-H-tilelarge.png" id="31_d0jpw"]
+[ext_resource type="Texture2D" uid="uid://clu7ydv4ox16f" path="res://sprites/city_environment/graphics/wall-concrete-small-H-large.png" id="32_wcf6r"]
+[ext_resource type="Texture2D" uid="uid://cx5wx3fiaoj8o" path="res://sprites/city_environment/graphics/wall-concrete-small-H-tile.png" id="33_4yidc"]
+[ext_resource type="Texture2D" uid="uid://dhctfc776h6qv" path="res://sprites/city_environment/graphics/wall-tall-dark.png" id="34_njyx1"]
+[ext_resource type="Texture2D" uid="uid://41k6f010vj21" path="res://sprites/city_environment/graphics/wall-tall.png" id="35_jpfkq"]
+[ext_resource type="Texture2D" uid="uid://cygmt24awqk70" path="res://sprites/city_environment/graphics/window-inside.png" id="36_2gvpc"]
+[ext_resource type="Texture2D" uid="uid://wk5w20rncvbj" path="res://sprites/city_environment/graphics/window-single.png" id="37_2tfmk"]
+[ext_resource type="Texture2D" uid="uid://dm1jdpfepkttm" path="res://sprites/city_environment/graphics/wood-floor.png" id="38_g5ayg"]
+[ext_resource type="Texture2D" uid="uid://dkys85su4ign4" path="res://sprites/city_environment/graphics/wood-panel-small.png" id="39_8cns5"]
+[ext_resource type="Texture2D" uid="uid://coyvuy3geg335" path="res://sprites/city_environment/graphics/wood-wall-interior-large.png" id="40_gomn4"]
+
+[node name="CityEnvironment" type="Control"]
+layout_mode = 3
+anchors_preset = 0
+metadata/import_ignore = false
+metadata/import_append = false
+
+[node name="OutsideBuildingWindows" type="MarginContainer" parent="."]
+layout_mode = 0
+offset_right = 672.0
+offset_bottom = 351.0
+
+[node name="OutsideBuildingWindows" type="Sprite2D" parent="OutsideBuildingWindows"]
+position = Vector2(16, 16)
+texture = ExtResource("1_nyr1u")
+centered = false
+
+[node name="CarpetLarge" type="MarginContainer" parent="."]
+layout_mode = 0
+offset_left = 672.0
+offset_right = 1304.0
+offset_bottom = 40.0
+
+[node name="CarpetLarge" type="Sprite2D" parent="CarpetLarge"]
+position = Vector2(16, 16)
+texture = ExtResource("2_yfn3q")
+centered = false
+
+[node name="CarpetTile" type="MarginContainer" parent="."]
+layout_mode = 0
+offset_left = 1304.0
+offset_right = 1456.0
+offset_bottom = 40.0
+
+[node name="CarpetTile" type="Sprite2D" parent="CarpetTile"]
+position = Vector2(16, 16)
+texture = ExtResource("3_ewekm")
+centered = false
+
+[node name="CeelingConcreteLarge" type="MarginContainer" parent="."]
+layout_mode = 0
+offset_left = 1456.0
+offset_right = 2058.0
+offset_bottom = 44.0
+
+[node name="CeelingConcreteLarge" type="Sprite2D" parent="CeelingConcreteLarge"]
+position = Vector2(16, 16)
+texture = ExtResource("4_gioua")
+centered = false
+
+[node name="CeelingConcreteTile" type="MarginContainer" parent="."]
+layout_mode = 0
+offset_top = 351.0
+offset_right = 132.0
+offset_bottom = 395.0
+
+[node name="CeelingConcreteTile" type="Sprite2D" parent="CeelingConcreteTile"]
+position = Vector2(16, 16)
+texture = ExtResource("5_uy7i6")
+centered = false
+
+[node name="CheckeredRedTiles" type="MarginContainer" parent="."]
+layout_mode = 0
+offset_left = 132.0
+offset_top = 351.0
+offset_right = 276.0
+offset_bottom = 439.0
+
+[node name="CheckeredRedTiles" type="Sprite2D" parent="CheckeredRedTiles"]
+position = Vector2(16, 16)
+texture = ExtResource("6_syf6j")
+centered = false
+
+[node name="ConcreteFloorLarge" type="MarginContainer" parent="."]
+layout_mode = 0
+offset_left = 276.0
+offset_top = 351.0
+offset_right = 808.0
+offset_bottom = 407.0
+
+[node name="ConcreteFloorLarge" type="Sprite2D" parent="ConcreteFloorLarge"]
+position = Vector2(16, 16)
+texture = ExtResource("7_p67db")
+centered = false
+
+[node name="ConcreteFloorTile" type="MarginContainer" parent="."]
+layout_mode = 0
+offset_left = 808.0
+offset_top = 351.0
+offset_right = 938.0
+offset_bottom = 407.0
+
+[node name="ConcreteFloorTile" type="Sprite2D" parent="ConcreteFloorTile"]
+position = Vector2(16, 16)
+texture = ExtResource("8_hwo2i")
+centered = false
+
+[node name="ConcreteWall01" type="MarginContainer" parent="."]
+layout_mode = 0
+offset_left = 938.0
+offset_top = 351.0
+offset_right = 1074.0
+offset_bottom = 567.0
+
+[node name="ConcreteWall01" type="Sprite2D" parent="ConcreteWall01"]
+position = Vector2(16, 16)
+texture = ExtResource("9_abds0")
+centered = false
+
+[node name="ConcreteWallDark" type="MarginContainer" parent="."]
+layout_mode = 0
+offset_left = 1074.0
+offset_top = 351.0
+offset_right = 1238.0
+offset_bottom = 540.0
+
+[node name="ConcreteWallDark" type="Sprite2D" parent="ConcreteWallDark"]
+position = Vector2(16, 16)
+texture = ExtResource("10_2rqkd")
+centered = false
+
+[node name="ConcreteWall" type="MarginContainer" parent="."]
+layout_mode = 0
+offset_left = 1238.0
+offset_top = 351.0
+offset_right = 1374.0
+offset_bottom = 567.0
+
+[node name="ConcreteWall" type="Sprite2D" parent="ConcreteWall"]
+position = Vector2(16, 16)
+texture = ExtResource("11_oh40g")
+centered = false
+
+[node name="DoorInside" type="MarginContainer" parent="."]
+layout_mode = 0
+offset_left = 1374.0
+offset_top = 351.0
+offset_right = 1455.0
+offset_bottom = 460.0
+
+[node name="DoorInside" type="Sprite2D" parent="DoorInside"]
+position = Vector2(16, 16)
+texture = ExtResource("12_03ugc")
+centered = false
+
+[node name="DoorOutsideOpen" type="MarginContainer" parent="."]
+layout_mode = 0
+offset_left = 1455.0
+offset_top = 351.0
+offset_right = 1524.0
+offset_bottom = 489.0
+
+[node name="DoorOutsideOpen" type="Sprite2D" parent="DoorOutsideOpen"]
+position = Vector2(16, 16)
+texture = ExtResource("13_6hnle")
+centered = false
+
+[node name="Exit" type="MarginContainer" parent="."]
+layout_mode = 0
+offset_left = 1524.0
+offset_top = 351.0
+offset_right = 1584.0
+offset_bottom = 396.0
+
+[node name="Exit" type="Sprite2D" parent="Exit"]
+position = Vector2(16, 16)
+texture = ExtResource("14_ug71b")
+centered = false
+
+[node name="LiftOutside" type="MarginContainer" parent="."]
+layout_mode = 0
+offset_left = 1584.0
+offset_top = 351.0
+offset_right = 1691.0
+offset_bottom = 513.0
+
+[node name="LiftOutside" type="Sprite2D" parent="LiftOutside"]
+position = Vector2(16, 16)
+texture = ExtResource("15_2jqvy")
+centered = false
+
+[node name="PipesLarge" type="MarginContainer" parent="."]
+layout_mode = 0
+offset_left = 1691.0
+offset_top = 351.0
+offset_right = 2103.0
+offset_bottom = 445.0
+
+[node name="PipesLarge" type="Sprite2D" parent="PipesLarge"]
+position = Vector2(16, 16)
+texture = ExtResource("16_nu3tr")
+centered = false
+
+[node name="PipesSimple" type="MarginContainer" parent="."]
+layout_mode = 0
+offset_top = 702.0
+offset_right = 100.0
+offset_bottom = 758.0
+
+[node name="PipesSimple" type="Sprite2D" parent="PipesSimple"]
+position = Vector2(16, 16)
+texture = ExtResource("17_qt761")
+centered = false
+
+[node name="PipesTap" type="MarginContainer" parent="."]
+layout_mode = 0
+offset_left = 100.0
+offset_top = 702.0
+offset_right = 204.0
+offset_bottom = 758.0
+
+[node name="PipesTap" type="Sprite2D" parent="PipesTap"]
+position = Vector2(16, 16)
+texture = ExtResource("18_cgxom")
+centered = false
+
+[node name="RoofEndLeft" type="MarginContainer" parent="."]
+layout_mode = 0
+offset_left = 204.0
+offset_top = 702.0
+offset_right = 249.0
+offset_bottom = 769.0
+
+[node name="RoofEndLeft" type="Sprite2D" parent="RoofEndLeft"]
+position = Vector2(16, 16)
+texture = ExtResource("19_qsc5m")
+centered = false
+
+[node name="RoofEndRight" type="MarginContainer" parent="."]
+layout_mode = 0
+offset_left = 249.0
+offset_top = 702.0
+offset_right = 294.0
+offset_bottom = 769.0
+
+[node name="RoofEndRight" type="Sprite2D" parent="RoofEndRight"]
+position = Vector2(16, 16)
+texture = ExtResource("20_qfq52")
+centered = false
+
+[node name="RoofFullForShop" type="MarginContainer" parent="."]
+layout_mode = 0
+offset_left = 294.0
+offset_top = 702.0
+offset_right = 519.0
+offset_bottom = 770.0
+
+[node name="RoofFullForShop" type="Sprite2D" parent="RoofFullForShop"]
+position = Vector2(16, 16)
+texture = ExtResource("21_8yvvu")
+centered = false
+
+[node name="RoofMiddleFlat" type="MarginContainer" parent="."]
+layout_mode = 0
+offset_left = 519.0
+offset_top = 702.0
+offset_right = 587.0
+offset_bottom = 770.0
+
+[node name="RoofMiddleFlat" type="Sprite2D" parent="RoofMiddleFlat"]
+position = Vector2(16, 16)
+texture = ExtResource("22_5ffps")
+centered = false
+
+[node name="RoofMiddleTiles" type="MarginContainer" parent="."]
+layout_mode = 0
+offset_left = 587.0
+offset_top = 702.0
+offset_right = 750.0
+offset_bottom = 770.0
+
+[node name="RoofMiddleTiles" type="Sprite2D" parent="RoofMiddleTiles"]
+position = Vector2(16, 16)
+texture = ExtResource("23_7axyp")
+centered = false
+
+[node name="RoofPanel" type="MarginContainer" parent="."]
+layout_mode = 0
+offset_left = 750.0
+offset_top = 702.0
+offset_right = 963.0
+offset_bottom = 757.0
+
+[node name="RoofPanel" type="Sprite2D" parent="RoofPanel"]
+position = Vector2(16, 16)
+texture = ExtResource("24_w75jv")
+centered = false
+
+[node name="SidewalkLarge" type="MarginContainer" parent="."]
+layout_mode = 0
+offset_left = 963.0
+offset_top = 702.0
+offset_right = 1605.0
+offset_bottom = 754.0
+
+[node name="SidewalkLarge" type="Sprite2D" parent="SidewalkLarge"]
+position = Vector2(16, 16)
+texture = ExtResource("25_bg2op")
+centered = false
+
+[node name="SidewalkTile" type="MarginContainer" parent="."]
+layout_mode = 0
+offset_left = 1605.0
+offset_top = 702.0
+offset_right = 1749.0
+offset_bottom = 754.0
+
+[node name="SidewalkTile" type="Sprite2D" parent="SidewalkTile"]
+position = Vector2(16, 16)
+texture = ExtResource("26_cig44")
+centered = false
+
+[node name="Vent" type="MarginContainer" parent="."]
+layout_mode = 0
+offset_left = 1749.0
+offset_top = 702.0
+offset_right = 1829.0
+offset_bottom = 775.0
+
+[node name="Vent" type="Sprite2D" parent="Vent"]
+position = Vector2(16, 16)
+texture = ExtResource("27_entqw")
+centered = false
+
+[node name="WallConcreteLargeHLarge" type="MarginContainer" parent="."]
+layout_mode = 0
+offset_left = 1829.0
+offset_top = 702.0
+offset_right = 2421.0
+offset_bottom = 766.0
+
+[node name="WallConcreteLargeHLarge" type="Sprite2D" parent="WallConcreteLargeHLarge"]
+position = Vector2(16, 16)
+texture = ExtResource("28_dw77a")
+centered = false
+
+[node name="WallConcreteLargeHTile" type="MarginContainer" parent="."]
+layout_mode = 0
+offset_top = 1053.0
+offset_right = 144.0
+offset_bottom = 1117.0
+
+[node name="WallConcreteLargeHTile" type="Sprite2D" parent="WallConcreteLargeHTile"]
+position = Vector2(16, 16)
+texture = ExtResource("29_7v4d7")
+centered = false
+
+[node name="WallConcreteMediumHTile" type="MarginContainer" parent="."]
+layout_mode = 0
+offset_left = 144.0
+offset_top = 1053.0
+offset_right = 264.0
+offset_bottom = 1105.0
+
+[node name="WallConcreteMediumHTile" type="Sprite2D" parent="WallConcreteMediumHTile"]
+position = Vector2(16, 16)
+texture = ExtResource("30_iwuhu")
+centered = false
+
+[node name="WallConcreteMediumHTilelarge" type="MarginContainer" parent="."]
+layout_mode = 0
+offset_left = 264.0
+offset_top = 1053.0
+offset_right = 824.0
+offset_bottom = 1105.0
+
+[node name="WallConcreteMediumHTilelarge" type="Sprite2D" parent="WallConcreteMediumHTilelarge"]
+position = Vector2(16, 16)
+texture = ExtResource("31_d0jpw")
+centered = false
+
+[node name="WallConcreteSmallHLarge" type="MarginContainer" parent="."]
+layout_mode = 0
+offset_left = 824.0
+offset_top = 1053.0
+offset_right = 1465.0
+offset_bottom = 1101.0
+
+[node name="WallConcreteSmallHLarge" type="Sprite2D" parent="WallConcreteSmallHLarge"]
+position = Vector2(16, 16)
+texture = ExtResource("32_wcf6r")
+centered = false
+
+[node name="WallConcreteSmallHTile" type="MarginContainer" parent="."]
+layout_mode = 0
+offset_left = 1465.0
+offset_top = 1053.0
+offset_right = 1584.0
+offset_bottom = 1101.0
+
+[node name="WallConcreteSmallHTile" type="Sprite2D" parent="WallConcreteSmallHTile"]
+position = Vector2(16, 16)
+texture = ExtResource("33_4yidc")
+centered = false
+
+[node name="WallTallDark" type="MarginContainer" parent="."]
+layout_mode = 0
+offset_left = 1584.0
+offset_top = 1053.0
+offset_right = 1712.0
+offset_bottom = 1377.0
+
+[node name="WallTallDark" type="Sprite2D" parent="WallTallDark"]
+position = Vector2(16, 16)
+texture = ExtResource("34_njyx1")
+centered = false
+
+[node name="WallTall" type="MarginContainer" parent="."]
+layout_mode = 0
+offset_left = 1712.0
+offset_top = 1053.0
+offset_right = 1840.0
+offset_bottom = 1377.0
+
+[node name="WallTall" type="Sprite2D" parent="WallTall"]
+position = Vector2(16, 16)
+texture = ExtResource("35_jpfkq")
+centered = false
+
+[node name="WindowInside" type="MarginContainer" parent="."]
+layout_mode = 0
+offset_left = 1840.0
+offset_top = 1053.0
+offset_right = 2391.0
+offset_bottom = 1355.0
+
+[node name="WindowInside" type="Sprite2D" parent="WindowInside"]
+position = Vector2(16, 16)
+texture = ExtResource("36_2gvpc")
+centered = false
+
+[node name="WindowSingle" type="MarginContainer" parent="."]
+layout_mode = 0
+offset_top = 1404.0
+offset_right = 136.0
+offset_bottom = 1737.0
+
+[node name="WindowSingle" type="Sprite2D" parent="WindowSingle"]
+position = Vector2(16, 16)
+texture = ExtResource("37_2tfmk")
+centered = false
+
+[node name="WoodFloor" type="MarginContainer" parent="."]
+layout_mode = 0
+offset_left = 136.0
+offset_top = 1404.0
+offset_right = 808.0
+offset_bottom = 1508.0
+
+[node name="WoodFloor" type="Sprite2D" parent="WoodFloor"]
+position = Vector2(16, 16)
+texture = ExtResource("38_g5ayg")
+centered = false
+
+[node name="WoodPanelSmall" type="MarginContainer" parent="."]
+layout_mode = 0
+offset_left = 808.0
+offset_top = 1404.0
+offset_right = 952.0
+offset_bottom = 1478.0
+
+[node name="WoodPanelSmall" type="Sprite2D" parent="WoodPanelSmall"]
+position = Vector2(16, 16)
+texture = ExtResource("39_8cns5")
+centered = false
+
+[node name="WoodWallInteriorLarge" type="MarginContainer" parent="."]
+layout_mode = 0
+offset_left = 952.0
+offset_top = 1404.0
+offset_right = 1241.0
+offset_bottom = 1648.0
+
+[node name="WoodWallInteriorLarge" type="Sprite2D" parent="WoodWallInteriorLarge"]
+position = Vector2(16, 16)
+texture = ExtResource("40_gomn4")
+centered = false

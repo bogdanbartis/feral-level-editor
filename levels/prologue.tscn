@@ -1,0 +1,5 @@
+[gd_scene format=3 uid="uid://dbbpj3b5rk7k"]
+
+[node name="Prologue" type="Node2D"]
+metadata/_edit_vertical_guides_ = [0.0, 640.0]
+metadata/_edit_horizontal_guides_ = [0.0, 368.0]

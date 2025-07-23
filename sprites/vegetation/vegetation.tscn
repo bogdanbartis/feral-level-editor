@@ -1,0 +1,85 @@
+[gd_scene load_steps=7 format=3 uid="uid://bxamuek3e1txd"]
+
+[ext_resource type="Texture2D" uid="uid://b4hdqobqd7req" path="res://sprites/vegetation/graphics/tree-bent-2.png" id="1_ivei5"]
+[ext_resource type="Texture2D" uid="uid://de1e42ybyool6" path="res://sprites/vegetation/graphics/tree-bent.png" id="2_0pr7y"]
+[ext_resource type="Texture2D" uid="uid://cgbknl2eosawg" path="res://sprites/vegetation/graphics/tree-fluffy-lower leaves.png" id="3_roub3"]
+[ext_resource type="Texture2D" uid="uid://balpb5uikl5i0" path="res://sprites/vegetation/graphics/tree-fluffy.png" id="4_xse73"]
+[ext_resource type="Texture2D" uid="uid://cnjgrl7yjdty4" path="res://sprites/vegetation/graphics/tree-large.png" id="5_du5aa"]
+[ext_resource type="Texture2D" uid="uid://dkjang0niwrre" path="res://sprites/vegetation/graphics/tree-very large.png" id="6_flqpt"]
+
+[node name="Vegetation" type="Control"]
+layout_mode = 3
+anchors_preset = 0
+offset_left = 16.0
+offset_top = 16.0
+offset_right = 240.0
+offset_bottom = 457.0
+grow_horizontal = 2
+grow_vertical = 2
+metadata/import_ignore = false
+metadata/import_append = false
+
+[node name="TreeBent2" type="MarginContainer" parent="."]
+layout_mode = 0
+offset_right = 225.0
+offset_bottom = 288.0
+
+[node name="TreeBent2" type="Sprite2D" parent="TreeBent2"]
+position = Vector2(16, 16)
+texture = ExtResource("1_ivei5")
+centered = false
+
+[node name="TreeBent" type="MarginContainer" parent="."]
+layout_mode = 0
+offset_left = 225.0
+offset_right = 457.0
+offset_bottom = 288.0
+
+[node name="TreeBent" type="Sprite2D" parent="TreeBent"]
+position = Vector2(16, 16)
+texture = ExtResource("2_0pr7y")
+centered = false
+
+[node name="TreeFluffyLowerLeaves" type="MarginContainer" parent="."]
+layout_mode = 0
+offset_left = 457.0
+offset_right = 677.0
+offset_bottom = 324.0
+
+[node name="TreeFluffyLowerLeaves" type="Sprite2D" parent="TreeFluffyLowerLeaves"]
+position = Vector2(16, 16)
+texture = ExtResource("3_roub3")
+centered = false
+
+[node name="TreeFluffy" type="MarginContainer" parent="."]
+layout_mode = 0
+offset_left = 677.0
+offset_right = 893.0
+offset_bottom = 324.0
+
+[node name="TreeFluffy" type="Sprite2D" parent="TreeFluffy"]
+position = Vector2(16, 16)
+texture = ExtResource("4_xse73")
+centered = false
+
+[node name="TreeLarge" type="MarginContainer" parent="."]
+layout_mode = 0
+offset_left = 893.0
+offset_right = 1237.0
+offset_bottom = 368.0
+
+[node name="TreeLarge" type="Sprite2D" parent="TreeLarge"]
+position = Vector2(16, 16)
+texture = ExtResource("5_du5aa")
+centered = false
+
+[node name="TreeVeryLarge" type="MarginContainer" parent="."]
+layout_mode = 0
+offset_left = 1237.0
+offset_right = 1493.0
+offset_bottom = 473.0
+
+[node name="TreeVeryLarge" type="Sprite2D" parent="TreeVeryLarge"]
+position = Vector2(16, 16)
+texture = ExtResource("6_flqpt")
+centered = false

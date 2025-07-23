@@ -1,0 +1,127 @@
+[gd_scene load_steps=11 format=3 uid="uid://c5jmhbfo450vm"]
+
+[ext_resource type="Texture2D" uid="uid://bh4giferecxfq" path="res://sprites/exterior_objects/graphics/bench-wood-dark.png" id="1_q6fe1"]
+[ext_resource type="Texture2D" uid="uid://c0g4xfu013m2g" path="res://sprites/exterior_objects/graphics/bench-wood.png" id="2_3qyjc"]
+[ext_resource type="Texture2D" uid="uid://3tms67x6nkqq" path="res://sprites/exterior_objects/graphics/fire-hydrant.png" id="3_vvqq2"]
+[ext_resource type="Texture2D" uid="uid://duepgv5vaun5t" path="res://sprites/exterior_objects/graphics/flower-pot-outside-dark.png" id="4_6gvo1"]
+[ext_resource type="Texture2D" uid="uid://bsu0mswj7awv0" path="res://sprites/exterior_objects/graphics/flower-pot-outside.png" id="5_toaju"]
+[ext_resource type="Texture2D" uid="uid://elt64nqp253o" path="res://sprites/exterior_objects/graphics/phone-booth.png" id="6_3ycut"]
+[ext_resource type="Texture2D" uid="uid://c20stfdav647d" path="res://sprites/exterior_objects/graphics/sign-fish-neon-animated!!.png" id="7_c01yw"]
+[ext_resource type="Texture2D" uid="uid://dodhbl05gu1xo" path="res://sprites/exterior_objects/graphics/sing-static-baked-to-perfection.png" id="8_6qank"]
+[ext_resource type="Texture2D" uid="uid://gyv1ddgmha5g" path="res://sprites/exterior_objects/graphics/window washing platform-dark.png" id="9_gvw4v"]
+[ext_resource type="Texture2D" uid="uid://b0qesaof80f3" path="res://sprites/exterior_objects/graphics/window washing platform.png" id="10_swkpc"]
+
+[node name="ExteriorObjects" type="Control"]
+layout_mode = 3
+anchors_preset = 0
+metadata/import_ignore = false
+metadata/import_append = false
+
+[node name="BenchWoodDark" type="MarginContainer" parent="."]
+layout_mode = 0
+offset_right = 104.0
+offset_bottom = 80.0
+
+[node name="BenchWoodDark" type="Sprite2D" parent="BenchWoodDark"]
+position = Vector2(16, 16)
+texture = ExtResource("1_q6fe1")
+centered = false
+
+[node name="BenchWood" type="MarginContainer" parent="."]
+layout_mode = 0
+offset_left = 104.0
+offset_right = 208.0
+offset_bottom = 80.0
+
+[node name="BenchWood" type="Sprite2D" parent="BenchWood"]
+position = Vector2(16, 16)
+texture = ExtResource("2_3qyjc")
+centered = false
+
+[node name="FireHydrant" type="MarginContainer" parent="."]
+layout_mode = 0
+offset_left = 208.0
+offset_right = 258.0
+offset_bottom = 61.0
+
+[node name="FireHydrant" type="Sprite2D" parent="FireHydrant"]
+position = Vector2(16, 16)
+texture = ExtResource("3_vvqq2")
+centered = false
+
+[node name="FlowerPotOutsideDark" type="MarginContainer" parent="."]
+layout_mode = 0
+offset_left = 258.0
+offset_right = 338.0
+offset_bottom = 78.0
+
+[node name="FlowerPotOutsideDark" type="Sprite2D" parent="FlowerPotOutsideDark"]
+position = Vector2(16, 16)
+texture = ExtResource("4_6gvo1")
+centered = false
+
+[node name="FlowerPotOutside" type="MarginContainer" parent="."]
+layout_mode = 0
+offset_left = 338.0
+offset_right = 418.0
+offset_bottom = 78.0
+
+[node name="FlowerPotOutside" type="Sprite2D" parent="FlowerPotOutside"]
+position = Vector2(16, 16)
+texture = ExtResource("5_toaju")
+centered = false
+
+[node name="PhoneBooth" type="MarginContainer" parent="."]
+layout_mode = 0
+offset_left = 418.0
+offset_right = 510.0
+offset_bottom = 140.0
+
+[node name="PhoneBooth" type="Sprite2D" parent="PhoneBooth"]
+position = Vector2(16, 16)
+texture = ExtResource("6_3ycut")
+centered = false
+
+[node name="SignFishNeonAnimated!!" type="MarginContainer" parent="."]
+layout_mode = 0
+offset_left = 510.0
+offset_right = 648.0
+offset_bottom = 59.0
+
+[node name="SignFishNeonAnimated!!" type="Sprite2D" parent="SignFishNeonAnimated!!"]
+position = Vector2(16, 16)
+texture = ExtResource("7_c01yw")
+centered = false
+
+[node name="SingStaticBakedToPerfection" type="MarginContainer" parent="."]
+layout_mode = 0
+offset_left = 648.0
+offset_right = 709.0
+offset_bottom = 139.0
+
+[node name="SingStaticBakedToPerfection" type="Sprite2D" parent="SingStaticBakedToPerfection"]
+position = Vector2(16, 16)
+texture = ExtResource("8_6qank")
+centered = false
+
+[node name="WindowWashingPlatformDark" type="MarginContainer" parent="."]
+layout_mode = 0
+offset_left = 709.0
+offset_right = 1131.0
+offset_bottom = 339.0
+
+[node name="WindowWashingPlatformDark" type="Sprite2D" parent="WindowWashingPlatformDark"]
+position = Vector2(16, 16)
+texture = ExtResource("9_gvw4v")
+centered = false
+
+[node name="WindowWashingPlatform" type="MarginContainer" parent="."]
+layout_mode = 0
+offset_left = 1131.0
+offset_right = 1553.0
+offset_bottom = 339.0
+
+[node name="WindowWashingPlatform" type="Sprite2D" parent="WindowWashingPlatform"]
+position = Vector2(16, 16)
+texture = ExtResource("10_swkpc")
+centered = false

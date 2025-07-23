@@ -38,327 +38,328 @@ metadata/_edit_horizontal_guides_ = [0.0, 360.0]
 [node name="Camera2D" type="Camera2D" parent="."]
 anchor_mode = 0
 script = ExtResource("1_7j6gi")
+speed = 150.0
 
 [node name="wall" type="Node2D" parent="."]
 metadata/_edit_lock_ = true
 
 [node name="WallTallDark" type="Sprite2D" parent="wall"]
-position = Vector2(0.921509, 27.7621)
+position = Vector2(0, 32)
 texture = ExtResource("2_6kw3k")
 centered = false
 
 [node name="WallTallDark2" type="Sprite2D" parent="wall"]
-position = Vector2(97, 27.7621)
+position = Vector2(96, 32)
 texture = ExtResource("2_6kw3k")
 centered = false
 
 [node name="WallTallDark3" type="Sprite2D" parent="wall"]
-position = Vector2(193, 27.7621)
+position = Vector2(192, 32)
 texture = ExtResource("2_6kw3k")
 centered = false
 
 [node name="WallTallDark4" type="Sprite2D" parent="wall"]
-position = Vector2(289.078, 27.7621)
+position = Vector2(288, 32)
 texture = ExtResource("2_6kw3k")
 centered = false
 
 [node name="WallTallDark5" type="Sprite2D" parent="wall"]
-position = Vector2(673, 28)
+position = Vector2(384, 32)
 texture = ExtResource("2_6kw3k")
 centered = false
 
 [node name="WallTallDark6" type="Sprite2D" parent="wall"]
-position = Vector2(481.078, 27.7621)
+position = Vector2(480, 32)
 texture = ExtResource("2_6kw3k")
 centered = false
 
 [node name="WallTallDark7" type="Sprite2D" parent="wall"]
-position = Vector2(577.078, 27.7621)
+position = Vector2(576, 32)
 texture = ExtResource("2_6kw3k")
 centered = false
 
 [node name="WallTallDark8" type="Sprite2D" parent="wall"]
-position = Vector2(385, 28)
+position = Vector2(672, 32)
 texture = ExtResource("2_6kw3k")
 centered = false
 
 [node name="WallTallDark9" type="Sprite2D" parent="wall"]
-position = Vector2(769, 27.7621)
+position = Vector2(768, 32)
 texture = ExtResource("2_6kw3k")
 centered = false
 
 [node name="WallTallDark10" type="Sprite2D" parent="wall"]
-position = Vector2(865.078, 27.7621)
+position = Vector2(864, 32)
 texture = ExtResource("2_6kw3k")
 centered = false
 
 [node name="WallTallDark11" type="Sprite2D" parent="wall"]
-position = Vector2(961.078, 27.7621)
+position = Vector2(960, 32)
 texture = ExtResource("2_6kw3k")
 centered = false
 
 [node name="WallTallDark12" type="Sprite2D" parent="wall"]
-position = Vector2(1057.16, 27.7621)
+position = Vector2(1056, 32)
 texture = ExtResource("2_6kw3k")
 centered = false
 
 [node name="WallTallDark13" type="Sprite2D" parent="wall"]
-position = Vector2(1153.08, 27.7621)
+position = Vector2(1152, 32)
 texture = ExtResource("2_6kw3k")
 centered = false
 
 [node name="WallTallDark14" type="Sprite2D" parent="wall"]
-position = Vector2(1249.16, 27.7621)
+position = Vector2(1248, 32)
 texture = ExtResource("2_6kw3k")
 centered = false
 
 [node name="WallTallDark15" type="Sprite2D" parent="wall"]
-position = Vector2(1345.16, 27.7621)
+position = Vector2(1344, 32)
 texture = ExtResource("2_6kw3k")
 centered = false
 
 [node name="WallTallDark16" type="Sprite2D" parent="wall"]
-position = Vector2(1441.24, 27.7621)
+position = Vector2(1440, 32)
 texture = ExtResource("2_6kw3k")
 centered = false
 
 [node name="WallTallDark17" type="Sprite2D" parent="wall"]
-position = Vector2(1537, 27.7621)
+position = Vector2(1536, 32)
 texture = ExtResource("2_6kw3k")
 centered = false
 
 [node name="WallTallDark18" type="Sprite2D" parent="wall"]
-position = Vector2(1633.08, 27.7621)
+position = Vector2(1632, 32)
 texture = ExtResource("2_6kw3k")
 centered = false
 
 [node name="WallTallDark19" type="Sprite2D" parent="wall"]
-position = Vector2(1729.08, 27.7621)
+position = Vector2(1728, 32)
 texture = ExtResource("2_6kw3k")
 centered = false
 
 [node name="WallTallDark20" type="Sprite2D" parent="wall"]
-position = Vector2(1825.16, 27.7621)
+position = Vector2(1824, 32)
 texture = ExtResource("2_6kw3k")
 centered = false
 
 [node name="WallTallDark21" type="Sprite2D" parent="wall"]
-position = Vector2(1921.08, 27.7621)
+position = Vector2(1920, 32)
 texture = ExtResource("2_6kw3k")
 centered = false
 
 [node name="WallTallDark22" type="Sprite2D" parent="wall"]
-position = Vector2(2017.16, 27.7621)
+position = Vector2(2016, 32)
 texture = ExtResource("2_6kw3k")
 centered = false
 
 [node name="WallTallDark23" type="Sprite2D" parent="wall"]
-position = Vector2(2113.16, 27.7621)
+position = Vector2(2112, 32)
 texture = ExtResource("2_6kw3k")
 centered = false
 
 [node name="WallTallDark24" type="Sprite2D" parent="wall"]
-position = Vector2(2209.24, 27.7621)
+position = Vector2(2208, 32)
 texture = ExtResource("2_6kw3k")
 centered = false
 
 [node name="WallTallDark25" type="Sprite2D" parent="wall"]
-position = Vector2(2305.08, 27.7621)
+position = Vector2(2304, 32)
 texture = ExtResource("2_6kw3k")
 centered = false
 
 [node name="WallTallDark26" type="Sprite2D" parent="wall"]
-position = Vector2(2401.16, 27.7621)
+position = Vector2(2400, 32)
 texture = ExtResource("2_6kw3k")
 centered = false
 
 [node name="WallTallDark27" type="Sprite2D" parent="wall"]
-position = Vector2(2497.16, 27.7621)
+position = Vector2(2496, 32)
 texture = ExtResource("2_6kw3k")
 centered = false
 
 [node name="WallTallDark28" type="Sprite2D" parent="wall"]
-position = Vector2(2593.24, 27.7621)
+position = Vector2(2592, 32)
 texture = ExtResource("2_6kw3k")
 centered = false
 
 [node name="WallTallDark29" type="Sprite2D" parent="wall"]
-position = Vector2(2689.16, 27.7621)
+position = Vector2(2688, 32)
 texture = ExtResource("2_6kw3k")
 centered = false
 
 [node name="WallTallDark30" type="Sprite2D" parent="wall"]
-position = Vector2(2785.24, 27.7621)
+position = Vector2(2784, 32)
 texture = ExtResource("2_6kw3k")
 centered = false
 
 [node name="WallTallDark31" type="Sprite2D" parent="wall"]
-position = Vector2(2881.24, 27.7621)
+position = Vector2(2880, 32)
 texture = ExtResource("2_6kw3k")
 centered = false
 
 [node name="WallTallDark32" type="Sprite2D" parent="wall"]
-position = Vector2(2977.31, 27.7621)
+position = Vector2(2976, 32)
 texture = ExtResource("2_6kw3k")
 centered = false
 
 [node name="WallTallDark33" type="Sprite2D" parent="wall"]
-position = Vector2(3073, 27.7621)
+position = Vector2(3072, 32)
 texture = ExtResource("2_6kw3k")
 centered = false
 
 [node name="WallTallDark34" type="Sprite2D" parent="wall"]
-position = Vector2(3169.08, 27.7621)
+position = Vector2(3168, 32)
 texture = ExtResource("2_6kw3k")
 centered = false
 
 [node name="WallTallDark35" type="Sprite2D" parent="wall"]
-position = Vector2(3265.08, 27.7621)
+position = Vector2(3264, 32)
 texture = ExtResource("2_6kw3k")
 centered = false
 
 [node name="WallTallDark36" type="Sprite2D" parent="wall"]
-position = Vector2(3361.16, 27.7621)
+position = Vector2(3360, 32)
 texture = ExtResource("2_6kw3k")
 centered = false
 
 [node name="WallTallDark37" type="Sprite2D" parent="wall"]
-position = Vector2(3457.08, 27.7621)
+position = Vector2(3456, 32)
 texture = ExtResource("2_6kw3k")
 centered = false
 
 [node name="WallTallDark38" type="Sprite2D" parent="wall"]
-position = Vector2(3553.16, 27.7621)
+position = Vector2(3552, 32)
 texture = ExtResource("2_6kw3k")
 centered = false
 
 [node name="WallTallDark39" type="Sprite2D" parent="wall"]
-position = Vector2(3649.16, 27.7621)
+position = Vector2(3648, 32)
 texture = ExtResource("2_6kw3k")
 centered = false
 
 [node name="WallTallDark40" type="Sprite2D" parent="wall"]
-position = Vector2(3745.24, 27.7621)
+position = Vector2(3744, 32)
 texture = ExtResource("2_6kw3k")
 centered = false
 
 [node name="WallTallDark41" type="Sprite2D" parent="wall"]
-position = Vector2(3841.08, 27.7621)
+position = Vector2(3840, 32)
 texture = ExtResource("2_6kw3k")
 centered = false
 
 [node name="WallTallDark42" type="Sprite2D" parent="wall"]
-position = Vector2(3937.16, 27.7621)
+position = Vector2(3936, 32)
 texture = ExtResource("2_6kw3k")
 centered = false
 
 [node name="WallTallDark43" type="Sprite2D" parent="wall"]
-position = Vector2(4033.16, 27.7621)
+position = Vector2(4032, 32)
 texture = ExtResource("2_6kw3k")
 centered = false
 
 [node name="WallTallDark44" type="Sprite2D" parent="wall"]
-position = Vector2(4129.24, 27.7621)
+position = Vector2(4128, 32)
 texture = ExtResource("2_6kw3k")
 centered = false
 
 [node name="WallTallDark45" type="Sprite2D" parent="wall"]
-position = Vector2(4225.16, 27.7621)
+position = Vector2(4224, 32)
 texture = ExtResource("2_6kw3k")
 centered = false
 
 [node name="WallTallDark46" type="Sprite2D" parent="wall"]
-position = Vector2(4321.24, 27.7621)
+position = Vector2(4320, 32)
 texture = ExtResource("2_6kw3k")
 centered = false
 
 [node name="WallTallDark47" type="Sprite2D" parent="wall"]
-position = Vector2(4417.24, 27.7621)
+position = Vector2(4416, 32)
 texture = ExtResource("2_6kw3k")
 centered = false
 
 [node name="WallTallDark48" type="Sprite2D" parent="wall"]
-position = Vector2(4513.31, 27.7621)
+position = Vector2(4512, 32)
 texture = ExtResource("2_6kw3k")
 centered = false
 
 [node name="WallTallDark49" type="Sprite2D" parent="wall"]
-position = Vector2(4609.08, 27.7621)
+position = Vector2(4608, 32)
 texture = ExtResource("2_6kw3k")
 centered = false
 
 [node name="WallTallDark50" type="Sprite2D" parent="wall"]
-position = Vector2(4705.16, 27.7621)
+position = Vector2(4704, 32)
 texture = ExtResource("2_6kw3k")
 centered = false
 
 [node name="WallTallDark51" type="Sprite2D" parent="wall"]
-position = Vector2(4801.16, 27.7621)
+position = Vector2(4800, 32)
 texture = ExtResource("2_6kw3k")
 centered = false
 
 [node name="WallTallDark52" type="Sprite2D" parent="wall"]
-position = Vector2(4897.24, 27.7621)
+position = Vector2(4896, 32)
 texture = ExtResource("2_6kw3k")
 centered = false
 
 [node name="WallTallDark53" type="Sprite2D" parent="wall"]
-position = Vector2(4993.16, 27.7621)
+position = Vector2(4992, 32)
 texture = ExtResource("2_6kw3k")
 centered = false
 
 [node name="WallTallDark54" type="Sprite2D" parent="wall"]
-position = Vector2(5089.24, 27.7621)
+position = Vector2(5088, 32)
 texture = ExtResource("2_6kw3k")
 centered = false
 
 [node name="WallTallDark55" type="Sprite2D" parent="wall"]
-position = Vector2(5185.24, 27.7621)
+position = Vector2(5184, 32)
 texture = ExtResource("2_6kw3k")
 centered = false
 
 [node name="WallTallDark56" type="Sprite2D" parent="wall"]
-position = Vector2(5281.31, 27.7621)
+position = Vector2(5280, 32)
 texture = ExtResource("2_6kw3k")
 centered = false
 
 [node name="WallTallDark57" type="Sprite2D" parent="wall"]
-position = Vector2(5377.16, 27.7621)
+position = Vector2(5376, 32)
 texture = ExtResource("2_6kw3k")
 centered = false
 
 [node name="WallTallDark58" type="Sprite2D" parent="wall"]
-position = Vector2(5473.24, 27.7621)
+position = Vector2(5472, 32)
 texture = ExtResource("2_6kw3k")
 centered = false
 
 [node name="WallTallDark59" type="Sprite2D" parent="wall"]
-position = Vector2(5569.24, 27.7621)
+position = Vector2(5568, 32)
 texture = ExtResource("2_6kw3k")
 centered = false
 
 [node name="WallTallDark60" type="Sprite2D" parent="wall"]
-position = Vector2(5665.31, 27.7621)
+position = Vector2(5664, 32)
 texture = ExtResource("2_6kw3k")
 centered = false
 
 [node name="WallTallDark61" type="Sprite2D" parent="wall"]
-position = Vector2(5761.24, 27.7621)
+position = Vector2(5760, 32)
 texture = ExtResource("2_6kw3k")
 centered = false
 
 [node name="WallTallDark62" type="Sprite2D" parent="wall"]
-position = Vector2(5857.31, 27.7621)
+position = Vector2(5856, 32)
 texture = ExtResource("2_6kw3k")
 centered = false
 
 [node name="WallTallDark63" type="Sprite2D" parent="wall"]
-position = Vector2(5953.31, 27.7621)
+position = Vector2(5952, 32)
 texture = ExtResource("2_6kw3k")
 centered = false
 
 [node name="WallTallDark64" type="Sprite2D" parent="wall"]
-position = Vector2(6049.39, 27.7621)
+position = Vector2(6048, 32)
 texture = ExtResource("2_6kw3k")
 centered = false
 
@@ -716,6 +717,8 @@ centered = false
 
 [node name="floor-inside" type="Node2D" parent="."]
 modulate = Color(0.66, 0.66, 0.66, 1)
+position = Vector2(0, 28)
+metadata/_edit_group_ = true
 
 [node name="ConcreteFloorLarge" type="Sprite2D" parent="floor-inside"]
 position = Vector2(0, 296)
@@ -784,7 +787,8 @@ centered = false
 metadata/_edit_lock_ = true
 
 [node name="front panel bottom" type="Node2D" parent="."]
-metadata/_edit_lock_ = true
+position = Vector2(0, 28)
+metadata/_edit_group_ = true
 
 [node name="WallConcreteMediumHTile" type="Sprite2D" parent="front panel bottom"]
 position = Vector2(0, 320)
@@ -1137,7 +1141,9 @@ texture = ExtResource("2_ls5i5")
 centered = false
 
 [node name="sidewalk" type="Node2D" parent="."]
-metadata/_edit_lock_ = true
+visible = false
+position = Vector2(0, 14)
+metadata/_edit_group_ = true
 
 [node name="SidewalkTile" type="Sprite2D" parent="sidewalk"]
 position = Vector2(0, 340)
@@ -1415,6 +1421,7 @@ texture = ExtResource("3_q4tca")
 centered = false
 
 [node name="ceiling" type="Node2D" parent="."]
+modulate = Color(0.3567, 0.374467, 0.41, 1)
 metadata/_edit_lock_ = true
 
 [node name="CeelingConcreteLarge" type="Sprite2D" parent="ceiling"]
@@ -1511,7 +1518,7 @@ texture = ExtResource("10_e51g0")
 centered = false
 
 [node name="ReceptionDesk" type="Sprite2D" parent="."]
-position = Vector2(230, 259)
+position = Vector2(230, 285)
 texture = ExtResource("9_lu74m")
 centered = false
 
@@ -1520,6 +1527,12 @@ position = Vector2(342, 186)
 texture = ExtResource("11_4okpn")
 
 [node name="furniture" type="Node2D" parent="."]
+position = Vector2(-6, 27)
+
+[node name="CouchLobbySimple" type="Sprite2D" parent="furniture"]
+position = Vector2(3551, 251)
+texture = ExtResource("24_61jdd")
+centered = false
 
 [node name="CouchLobbyRedPillow" type="Sprite2D" parent="furniture"]
 position = Vector2(615, 250)
@@ -1579,6 +1592,7 @@ texture = ExtResource("14_ihamx")
 centered = false
 
 [node name="plants" type="Node2D" parent="."]
+position = Vector2(0, 29)
 
 [node name="Plant06" type="Sprite2D" parent="plants"]
 position = Vector2(578, 236)
@@ -1600,6 +1614,11 @@ position = Vector2(42, 214)
 texture = ExtResource("16_q4tca")
 centered = false
 
+[node name="Plant03" type="Sprite2D" parent="plants"]
+position = Vector2(1350, 251)
+texture = ExtResource("26_37nl1")
+centered = false
+
 [node name="Plant07" type="Sprite2D" parent="plants"]
 position = Vector2(1852, 214)
 texture = ExtResource("16_q4tca")
@@ -1608,6 +1627,11 @@ centered = false
 [node name="Plant08" type="Sprite2D" parent="plants"]
 position = Vector2(5126, 214)
 texture = ExtResource("16_q4tca")
+centered = false
+
+[node name="Plant04" type="Sprite2D" parent="plants"]
+position = Vector2(2913, 251)
+texture = ExtResource("26_37nl1")
 centered = false
 
 [node name="PlantPotTall" type="Sprite2D" parent="plants"]
@@ -1626,7 +1650,7 @@ texture = ExtResource("13_gqtvg")
 centered = false
 
 [node name="BonsaiSmall" type="Sprite2D" parent="plants"]
-position = Vector2(413.716, 221.179)
+position = Vector2(414, 218)
 texture = ExtResource("20_sgt2f")
 centered = false
 
@@ -1660,24 +1684,9 @@ position = Vector2(2334, 119)
 texture = ExtResource("23_xnher")
 centered = false
 
-[node name="CouchLobbySimple" type="Sprite2D" parent="."]
-position = Vector2(3545, 250)
-texture = ExtResource("24_61jdd")
-centered = false
-
 [node name="LiftOutside" type="Sprite2D" parent="."]
-position = Vector2(5881, 166)
+position = Vector2(5881, 193)
 texture = ExtResource("25_6py68")
-centered = false
-
-[node name="Plant03" type="Sprite2D" parent="."]
-position = Vector2(1356, 252)
-texture = ExtResource("26_37nl1")
-centered = false
-
-[node name="Plant04" type="Sprite2D" parent="."]
-position = Vector2(2902, 252)
-texture = ExtResource("26_37nl1")
 centered = false
 
 [node name="CatPaintingWarhol" type="Sprite2D" parent="."]

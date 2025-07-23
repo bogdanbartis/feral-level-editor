@@ -1,4 +1,4 @@
-[gd_scene load_steps=8 format=3 uid="uid://mggwdv75cvk7"]
+[gd_scene load_steps=9 format=3 uid="uid://mggwdv75cvk7"]
 
 [ext_resource type="Script" uid="uid://c13lfr0tm44lq" path="res://levels/camera_2d.gd" id="1_7j6gi"]
 [ext_resource type="Texture2D" uid="uid://ba2ikewegg0jp" path="res://sprites/testing/graphics/wall-tall-dark.png" id="2_6kw3k"]
@@ -7,6 +7,7 @@
 [ext_resource type="Texture2D" uid="uid://dcxiacwyd5lnv" path="res://sprites/city_environment/graphics/ceeling-concrete-large.png" id="5_bjiek"]
 [ext_resource type="Texture2D" uid="uid://ce4rjpjwl7cm3" path="res://sprites/testing/reference.png" id="6_abk84"]
 [ext_resource type="Texture2D" uid="uid://c3ebv7ulosbvv" path="res://sprites/testing/graphics/Cat-Painting---03.png" id="7_abk84"]
+[ext_resource type="Texture2D" uid="uid://8ehtj4qao7dl" path="res://sprites/testing/graphics/Cat-Painting---04.png" id="8_e6a0e"]
 
 [node name="testing" type="Node2D"]
 metadata/_edit_vertical_guides_ = [0.0, 640.0]
@@ -1322,60 +1323,60 @@ position = Vector2(6048, 340)
 texture = ExtResource("3_q4tca")
 centered = false
 
-[node name="ceeling" type="Node2D" parent="."]
+[node name="ceiling" type="Node2D" parent="."]
 metadata/_edit_lock_ = true
 
-[node name="CeelingConcreteLarge" type="Sprite2D" parent="ceeling"]
+[node name="CeelingConcreteLarge" type="Sprite2D" parent="ceiling"]
 position = Vector2(0, 20)
 texture = ExtResource("5_bjiek")
 centered = false
 
-[node name="CeelingConcreteLarge2" type="Sprite2D" parent="ceeling"]
+[node name="CeelingConcreteLarge2" type="Sprite2D" parent="ceiling"]
 position = Vector2(564, 20)
 texture = ExtResource("5_bjiek")
 centered = false
 
-[node name="CeelingConcreteLarge3" type="Sprite2D" parent="ceeling"]
+[node name="CeelingConcreteLarge3" type="Sprite2D" parent="ceiling"]
 position = Vector2(1128, 20)
 texture = ExtResource("5_bjiek")
 centered = false
 
-[node name="CeelingConcreteLarge4" type="Sprite2D" parent="ceeling"]
+[node name="CeelingConcreteLarge4" type="Sprite2D" parent="ceiling"]
 position = Vector2(1692, 20)
 texture = ExtResource("5_bjiek")
 centered = false
 
-[node name="CeelingConcreteLarge5" type="Sprite2D" parent="ceeling"]
+[node name="CeelingConcreteLarge5" type="Sprite2D" parent="ceiling"]
 position = Vector2(2257, 20)
 texture = ExtResource("5_bjiek")
 centered = false
 
-[node name="CeelingConcreteLarge6" type="Sprite2D" parent="ceeling"]
+[node name="CeelingConcreteLarge6" type="Sprite2D" parent="ceiling"]
 position = Vector2(2821, 20)
 texture = ExtResource("5_bjiek")
 centered = false
 
-[node name="CeelingConcreteLarge7" type="Sprite2D" parent="ceeling"]
+[node name="CeelingConcreteLarge7" type="Sprite2D" parent="ceiling"]
 position = Vector2(3385, 20)
 texture = ExtResource("5_bjiek")
 centered = false
 
-[node name="CeelingConcreteLarge8" type="Sprite2D" parent="ceeling"]
+[node name="CeelingConcreteLarge8" type="Sprite2D" parent="ceiling"]
 position = Vector2(3949, 20)
 texture = ExtResource("5_bjiek")
 centered = false
 
-[node name="CeelingConcreteLarge9" type="Sprite2D" parent="ceeling"]
+[node name="CeelingConcreteLarge9" type="Sprite2D" parent="ceiling"]
 position = Vector2(4513, 20)
 texture = ExtResource("5_bjiek")
 centered = false
 
-[node name="CeelingConcreteLarge10" type="Sprite2D" parent="ceeling"]
+[node name="CeelingConcreteLarge10" type="Sprite2D" parent="ceiling"]
 position = Vector2(5077, 20)
 texture = ExtResource("5_bjiek")
 centered = false
 
-[node name="CeelingConcreteLarge11" type="Sprite2D" parent="ceeling"]
+[node name="CeelingConcreteLarge11" type="Sprite2D" parent="ceiling"]
 position = Vector2(5641, 20)
 texture = ExtResource("5_bjiek")
 centered = false
@@ -1395,4 +1396,9 @@ centered = false
 [node name="@Sprite2D@24067" type="Sprite2D" parent="."]
 position = Vector2(491.12, 117.09)
 texture = ExtResource("7_abk84")
+centered = false
+
+[node name="CatPainting04" type="Sprite2D" parent="."]
+position = Vector2(64.7889, 117.784)
+texture = ExtResource("8_e6a0e")
 centered = false

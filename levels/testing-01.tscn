@@ -1,4 +1,4 @@
-[gd_scene load_steps=10 format=3 uid="uid://mggwdv75cvk7"]
+[gd_scene load_steps=12 format=3 uid="uid://mggwdv75cvk7"]
 
 [ext_resource type="Script" uid="uid://c13lfr0tm44lq" path="res://levels/camera_2d.gd" id="1_7j6gi"]
 [ext_resource type="Texture2D" uid="uid://ba2ikewegg0jp" path="res://sprites/testing/graphics/wall-tall-dark.png" id="2_6kw3k"]
@@ -8,8 +8,9 @@
 [ext_resource type="Texture2D" uid="uid://ce4rjpjwl7cm3" path="res://sprites/testing/reference.png" id="6_abk84"]
 [ext_resource type="Texture2D" uid="uid://c3ebv7ulosbvv" path="res://sprites/testing/graphics/Cat-Painting---03.png" id="7_abk84"]
 [ext_resource type="Texture2D" uid="uid://8ehtj4qao7dl" path="res://sprites/testing/graphics/Cat-Painting---04.png" id="8_e6a0e"]
-[ext_resource type="Texture2D" uid="uid://b0fnh0aykh226" path="res://sprites/testing/graphics/wood-wall-interior-large.png" id="9_lu74m"]
 [ext_resource type="Texture2D" uid="uid://dh70u61biv8jc" path="res://sprites/testing/graphics/reception-desk.png" id="9_lu74m"]
+[ext_resource type="Texture2D" uid="uid://b0fnh0aykh226" path="res://sprites/testing/graphics/wood-wall-interior-large.png" id="10_e51g0"]
+[ext_resource type="Texture2D" uid="uid://crkt2814a1qnr" path="res://sprites/testing/graphics/abrstract-painting-02.png" id="11_4okpn"]
 
 [node name="testing" type="Node2D"]
 metadata/_edit_vertical_guides_ = [0.0, 640.0]
@@ -1405,10 +1406,17 @@ position = Vector2(64.7889, 117.784)
 texture = ExtResource("8_e6a0e")
 centered = false
 
-[node name="WoodWallInteriorLarge" type="Sprite2D" parent="."]
-position = Vector2(184.53, 53.9228)
-
 [node name="ReceptionDesk" type="Sprite2D" parent="."]
 position = Vector2(201.294, 274.423)
 texture = ExtResource("9_lu74m")
+centered = false
+
+[node name="wood panelling" type="Sprite2D" parent="."]
+position = Vector2(183, 54)
+texture = ExtResource("10_e51g0")
+centered = false
+
+[node name="AbrstractPainting02" type="Sprite2D" parent="."]
+position = Vector2(212.539, 159.658)
+texture = ExtResource("11_4okpn")
 centered = false

@@ -1,4 +1,4 @@
-[gd_scene load_steps=41 format=3 uid="uid://cqcg4nnoero6h"]
+[gd_scene load_steps=42 format=3 uid="uid://cqcg4nnoero6h"]
 
 [ext_resource type="Texture2D" uid="uid://daimwsb52ct5e" path="res://sprites/city_environment/graphics/Outside_Building_windows.png" id="1_nyr1u"]
 [ext_resource type="Texture2D" uid="uid://ddcrlwxhitrh0" path="res://sprites/city_environment/graphics/carpet-large.png" id="2_yfn3q"]
@@ -15,6 +15,7 @@
 [ext_resource type="Texture2D" uid="uid://dc4e6jcex557f" path="res://sprites/city_environment/graphics/door-outside-open.png" id="13_6hnle"]
 [ext_resource type="Texture2D" uid="uid://c4uf43x6kdd71" path="res://sprites/city_environment/graphics/exit.png" id="14_ug71b"]
 [ext_resource type="Texture2D" uid="uid://cuvt0rjwgn0m8" path="res://sprites/city_environment/graphics/lift-outside.png" id="15_2jqvy"]
+[ext_resource type="Texture2D" uid="uid://cugeah52mxbfj" path="res://sprites/city_environment/graphics/exit_with_blur.png" id="15_yfn3q"]
 [ext_resource type="Texture2D" uid="uid://b2ay5ebplfn0d" path="res://sprites/city_environment/graphics/pipes-large.png" id="16_nu3tr"]
 [ext_resource type="Texture2D" uid="uid://d15s1jcsox6s1" path="res://sprites/city_environment/graphics/pipes-simple.png" id="17_qt761"]
 [ext_resource type="Texture2D" uid="uid://ckmngk18o57u" path="res://sprites/city_environment/graphics/pipes-tap.png" id="18_cgxom"]
@@ -209,11 +210,23 @@ position = Vector2(16, 16)
 texture = ExtResource("14_ug71b")
 centered = false
 
-[node name="LiftOutside" type="MarginContainer" parent="."]
+[node name="ExitWithBlur" type="MarginContainer" parent="."]
 layout_mode = 0
 offset_left = 1584.0
 offset_top = 351.0
-offset_right = 1691.0
+offset_right = 1668.0
+offset_bottom = 421.0
+
+[node name="ExitWithBlur" type="Sprite2D" parent="ExitWithBlur"]
+position = Vector2(16, 16)
+texture = ExtResource("15_yfn3q")
+centered = false
+
+[node name="LiftOutside" type="MarginContainer" parent="."]
+layout_mode = 0
+offset_left = 1668.0
+offset_top = 351.0
+offset_right = 1775.0
 offset_bottom = 513.0
 
 [node name="LiftOutside" type="Sprite2D" parent="LiftOutside"]
@@ -223,10 +236,10 @@ centered = false
 
 [node name="PipesLarge" type="MarginContainer" parent="."]
 layout_mode = 0
-offset_left = 1691.0
+offset_left = 1775.0
 offset_top = 351.0
-offset_right = 2103.0
-offset_bottom = 445.0
+offset_right = 2197.0
+offset_bottom = 455.0
 
 [node name="PipesLarge" type="Sprite2D" parent="PipesLarge"]
 position = Vector2(16, 16)
@@ -236,8 +249,8 @@ centered = false
 [node name="PipesSimple" type="MarginContainer" parent="."]
 layout_mode = 0
 offset_top = 702.0
-offset_right = 100.0
-offset_bottom = 758.0
+offset_right = 110.0
+offset_bottom = 768.0
 
 [node name="PipesSimple" type="Sprite2D" parent="PipesSimple"]
 position = Vector2(16, 16)
@@ -246,10 +259,10 @@ centered = false
 
 [node name="PipesTap" type="MarginContainer" parent="."]
 layout_mode = 0
-offset_left = 100.0
+offset_left = 110.0
 offset_top = 702.0
-offset_right = 204.0
-offset_bottom = 758.0
+offset_right = 224.0
+offset_bottom = 768.0
 
 [node name="PipesTap" type="Sprite2D" parent="PipesTap"]
 position = Vector2(16, 16)
@@ -258,9 +271,9 @@ centered = false
 
 [node name="RoofEndLeft" type="MarginContainer" parent="."]
 layout_mode = 0
-offset_left = 204.0
+offset_left = 224.0
 offset_top = 702.0
-offset_right = 249.0
+offset_right = 269.0
 offset_bottom = 769.0
 
 [node name="RoofEndLeft" type="Sprite2D" parent="RoofEndLeft"]
@@ -270,9 +283,9 @@ centered = false
 
 [node name="RoofEndRight" type="MarginContainer" parent="."]
 layout_mode = 0
-offset_left = 249.0
+offset_left = 269.0
 offset_top = 702.0
-offset_right = 294.0
+offset_right = 314.0
 offset_bottom = 769.0
 
 [node name="RoofEndRight" type="Sprite2D" parent="RoofEndRight"]
@@ -282,9 +295,9 @@ centered = false
 
 [node name="RoofFullForShop" type="MarginContainer" parent="."]
 layout_mode = 0
-offset_left = 294.0
+offset_left = 314.0
 offset_top = 702.0
-offset_right = 519.0
+offset_right = 539.0
 offset_bottom = 770.0
 
 [node name="RoofFullForShop" type="Sprite2D" parent="RoofFullForShop"]
@@ -294,9 +307,9 @@ centered = false
 
 [node name="RoofMiddleFlat" type="MarginContainer" parent="."]
 layout_mode = 0
-offset_left = 519.0
+offset_left = 539.0
 offset_top = 702.0
-offset_right = 587.0
+offset_right = 607.0
 offset_bottom = 770.0
 
 [node name="RoofMiddleFlat" type="Sprite2D" parent="RoofMiddleFlat"]
@@ -306,9 +319,9 @@ centered = false
 
 [node name="RoofMiddleTiles" type="MarginContainer" parent="."]
 layout_mode = 0
-offset_left = 587.0
+offset_left = 607.0
 offset_top = 702.0
-offset_right = 750.0
+offset_right = 770.0
 offset_bottom = 770.0
 
 [node name="RoofMiddleTiles" type="Sprite2D" parent="RoofMiddleTiles"]
@@ -318,9 +331,9 @@ centered = false
 
 [node name="RoofPanel" type="MarginContainer" parent="."]
 layout_mode = 0
-offset_left = 750.0
+offset_left = 770.0
 offset_top = 702.0
-offset_right = 963.0
+offset_right = 983.0
 offset_bottom = 757.0
 
 [node name="RoofPanel" type="Sprite2D" parent="RoofPanel"]
@@ -330,9 +343,9 @@ centered = false
 
 [node name="SidewalkLarge" type="MarginContainer" parent="."]
 layout_mode = 0
-offset_left = 963.0
+offset_left = 983.0
 offset_top = 702.0
-offset_right = 1605.0
+offset_right = 1625.0
 offset_bottom = 754.0
 
 [node name="SidewalkLarge" type="Sprite2D" parent="SidewalkLarge"]
@@ -342,9 +355,9 @@ centered = false
 
 [node name="SidewalkTile" type="MarginContainer" parent="."]
 layout_mode = 0
-offset_left = 1605.0
+offset_left = 1625.0
 offset_top = 702.0
-offset_right = 1749.0
+offset_right = 1769.0
 offset_bottom = 754.0
 
 [node name="SidewalkTile" type="Sprite2D" parent="SidewalkTile"]
@@ -354,9 +367,9 @@ centered = false
 
 [node name="Vent" type="MarginContainer" parent="."]
 layout_mode = 0
-offset_left = 1749.0
+offset_left = 1769.0
 offset_top = 702.0
-offset_right = 1829.0
+offset_right = 1849.0
 offset_bottom = 775.0
 
 [node name="Vent" type="Sprite2D" parent="Vent"]
@@ -366,9 +379,9 @@ centered = false
 
 [node name="WallConcreteLargeHLarge" type="MarginContainer" parent="."]
 layout_mode = 0
-offset_left = 1829.0
+offset_left = 1849.0
 offset_top = 702.0
-offset_right = 2421.0
+offset_right = 2441.0
 offset_bottom = 766.0
 
 [node name="WallConcreteLargeHLarge" type="Sprite2D" parent="WallConcreteLargeHLarge"]

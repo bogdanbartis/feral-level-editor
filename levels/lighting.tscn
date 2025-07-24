@@ -1,9 +1,9 @@
-[gd_scene load_steps=13 format=3 uid="uid://b054uvbmyxio2"]
+[gd_scene load_steps=13 format=3 uid="uid://cd35hyldikatu"]
 
 [ext_resource type="Texture2D" uid="uid://bniiyrapxwple" path="res://sprites/city_environment/graphics/wall-concrete-large-H-large.png" id="1_owrny"]
 [ext_resource type="Texture2D" uid="uid://nbu5tymbo65s" path="res://sprites/city_environment/graphics/concrete-wall-dark.png" id="2_p8aw0"]
 [ext_resource type="Texture2D" uid="uid://ddcrlwxhitrh0" path="res://sprites/city_environment/graphics/carpet-large.png" id="3_0nopn"]
-[ext_resource type="PackedScene" uid="uid://0t87yfdk8rig" path="res://sprites/lighting/neon.tscn" id="3_idc61"]
+[ext_resource type="PackedScene" path="res://sprites/lighting/neon.tscn" id="3_idc61"]
 [ext_resource type="Texture2D" uid="uid://buouwy842xwdt" path="res://sprites/interior_objects/graphics/cabinet-small-books.png" id="4_idc61"]
 [ext_resource type="Texture2D" uid="uid://bwy5w28l4yw1q" path="res://sprites/lighting/graphics/neon.png" id="4_j8gh6"]
 [ext_resource type="Texture2D" uid="uid://ce64nef12xab6" path="res://sprites/interior_objects/graphics/couch-lobby-simple.png" id="6_7b4ol"]
@@ -15,7 +15,7 @@
 polygon = PackedVector2Array(-0.268494, 16.0745, -0.268494, 17.0745, 44.7315, 17.0745, 45, 16)
 
 [sub_resource type="OccluderPolygon2D" id="OccluderPolygon2D_yl0fs"]
-polygon = PackedVector2Array(0, 16, 0, 17, 45, 17, 45, 16)
+polygon = PackedVector2Array(0, 16, 0, 17, 45, 17, 45, 16, 39, 16)
 
 [node name="Lighting" type="Node2D"]
 metadata/_edit_vertical_guides_ = [640.0, 0.0]

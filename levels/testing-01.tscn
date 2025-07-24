@@ -42,6 +42,7 @@ speed = 150.0
 
 [node name="wall" type="Node2D" parent="."]
 metadata/_edit_lock_ = true
+metadata/_edit_group_ = true
 
 [node name="WallTallDark" type="Sprite2D" parent="wall"]
 position = Vector2(0, 32)
@@ -365,6 +366,7 @@ centered = false
 
 [node name="front panel top" type="Node2D" parent="."]
 metadata/_edit_lock_ = true
+metadata/_edit_group_ = true
 
 [node name="WallConcreteMediumHTile" type="Sprite2D" parent="front panel top"]
 texture = ExtResource("2_ls5i5")
@@ -719,6 +721,7 @@ centered = false
 modulate = Color(0.66, 0.66, 0.66, 1)
 position = Vector2(0, 28)
 metadata/_edit_group_ = true
+metadata/_edit_lock_ = true
 
 [node name="ConcreteFloorLarge" type="Sprite2D" parent="floor-inside"]
 position = Vector2(0, 296)
@@ -789,6 +792,7 @@ metadata/_edit_lock_ = true
 [node name="front panel bottom" type="Node2D" parent="."]
 position = Vector2(0, 28)
 metadata/_edit_group_ = true
+metadata/_edit_lock_ = true
 
 [node name="WallConcreteMediumHTile" type="Sprite2D" parent="front panel bottom"]
 position = Vector2(0, 320)
@@ -1143,7 +1147,6 @@ centered = false
 [node name="sidewalk" type="Node2D" parent="."]
 visible = false
 position = Vector2(0, 14)
-metadata/_edit_group_ = true
 
 [node name="SidewalkTile" type="Sprite2D" parent="sidewalk"]
 position = Vector2(0, 340)
@@ -1423,6 +1426,7 @@ centered = false
 [node name="ceiling" type="Node2D" parent="."]
 modulate = Color(0.3567, 0.374467, 0.41, 1)
 metadata/_edit_lock_ = true
+metadata/_edit_group_ = true
 
 [node name="CeelingConcreteLarge" type="Sprite2D" parent="ceiling"]
 position = Vector2(0, 20)
@@ -1486,30 +1490,62 @@ position = Vector2(321.225, 179)
 scale = Vector2(0.2346, 0.2346)
 texture = ExtResource("6_abk84")
 metadata/_edit_lock_ = true
+metadata/_edit_group_ = true
 
-[node name="cat painting yellow" type="Sprite2D" parent="."]
+[node name="paintings" type="Node2D" parent="."]
+
+[node name="cat painting yellow" type="Sprite2D" parent="paintings"]
 position = Vector2(1662, 118)
 texture = ExtResource("7_abk84")
 centered = false
 
-[node name="cat painting yellow2" type="Sprite2D" parent="."]
+[node name="cat painting yellow2" type="Sprite2D" parent="paintings"]
 position = Vector2(3110, 118)
 texture = ExtResource("7_abk84")
 centered = false
 
-[node name="CatPainting red" type="Sprite2D" parent="."]
+[node name="CatPainting red" type="Sprite2D" parent="paintings"]
 position = Vector2(126, 118)
 texture = ExtResource("8_e6a0e")
 centered = false
 
-[node name="CatPainting red3" type="Sprite2D" parent="."]
+[node name="CatPainting red3" type="Sprite2D" parent="paintings"]
 position = Vector2(4556, 118)
 texture = ExtResource("8_e6a0e")
 centered = false
 
-[node name="CatPainting red2" type="Sprite2D" parent="."]
+[node name="CatPainting red2" type="Sprite2D" parent="paintings"]
 position = Vector2(5309, 118)
 texture = ExtResource("8_e6a0e")
+centered = false
+
+[node name="AbrstractPainting02" type="Sprite2D" parent="paintings"]
+position = Vector2(342, 186)
+texture = ExtResource("11_4okpn")
+
+[node name="CatPainting02" type="Sprite2D" parent="paintings"]
+position = Vector2(1086, 119)
+texture = ExtResource("22_54t7s")
+centered = false
+
+[node name="CatPainting03" type="Sprite2D" parent="paintings"]
+position = Vector2(3965, 119)
+texture = ExtResource("22_54t7s")
+centered = false
+
+[node name="CatPainting01" type="Sprite2D" parent="paintings"]
+position = Vector2(506, 119)
+texture = ExtResource("23_xnher")
+centered = false
+
+[node name="CatPainting04" type="Sprite2D" parent="paintings"]
+position = Vector2(2334, 119)
+texture = ExtResource("23_xnher")
+centered = false
+
+[node name="CatPaintingWarhol" type="Sprite2D" parent="paintings"]
+position = Vector2(3587, 137)
+texture = ExtResource("27_7tfy0")
 centered = false
 
 [node name="wood panelling" type="Sprite2D" parent="."]
@@ -1521,10 +1557,6 @@ centered = false
 position = Vector2(230, 285)
 texture = ExtResource("9_lu74m")
 centered = false
-
-[node name="AbrstractPainting02" type="Sprite2D" parent="."]
-position = Vector2(342, 186)
-texture = ExtResource("11_4okpn")
 
 [node name="furniture" type="Node2D" parent="."]
 position = Vector2(-6, 27)
@@ -1593,6 +1625,8 @@ centered = false
 
 [node name="plants" type="Node2D" parent="."]
 position = Vector2(0, 29)
+metadata/_edit_group_ = true
+metadata/_edit_lock_ = true
 
 [node name="Plant06" type="Sprite2D" parent="plants"]
 position = Vector2(578, 236)
@@ -1664,34 +1698,9 @@ position = Vector2(5825, 220)
 texture = ExtResource("13_gqtvg")
 centered = false
 
-[node name="CatPainting02" type="Sprite2D" parent="."]
-position = Vector2(1086, 119)
-texture = ExtResource("22_54t7s")
-centered = false
-
-[node name="CatPainting03" type="Sprite2D" parent="."]
-position = Vector2(3965, 119)
-texture = ExtResource("22_54t7s")
-centered = false
-
-[node name="CatPainting01" type="Sprite2D" parent="."]
-position = Vector2(506, 119)
-texture = ExtResource("23_xnher")
-centered = false
-
-[node name="CatPainting04" type="Sprite2D" parent="."]
-position = Vector2(2334, 119)
-texture = ExtResource("23_xnher")
-centered = false
-
 [node name="LiftOutside" type="Sprite2D" parent="."]
 position = Vector2(5881, 193)
 texture = ExtResource("25_6py68")
-centered = false
-
-[node name="CatPaintingWarhol" type="Sprite2D" parent="."]
-position = Vector2(3587, 137)
-texture = ExtResource("27_7tfy0")
 centered = false
 
 [node name="lights" type="Node2D" parent="."]

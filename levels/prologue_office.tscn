@@ -1,4 +1,4 @@
-[gd_scene load_steps=88 format=3 uid="uid://cf63bu5gqmg50"]
+[gd_scene load_steps=89 format=3 uid="uid://cf63bu5gqmg50"]
 
 [ext_resource type="Texture2D" uid="uid://dirpmnn6h5t63" path="res://sprites/references/reference_office.png" id="2_e3apq"]
 [ext_resource type="Texture2D" uid="uid://nbu5tymbo65s" path="res://sprites/city_environment/graphics/concrete-wall-dark.png" id="3_ftrse"]
@@ -62,6 +62,7 @@
 [ext_resource type="PackedScene" uid="uid://bsf0hs0vq1vv3" path="res://characters/player/player.tscn" id="61_xfblm"]
 [ext_resource type="PackedScene" uid="uid://c8ejqehtoghto" path="res://characters/enemies/doberman/doberman.tscn" id="62_2cioe"]
 [ext_resource type="PackedScene" uid="uid://c6yura3g6272y" path="res://characters/enemies/great_dane/great_dane.tscn" id="62_jrmi0"]
+[ext_resource type="AudioStream" uid="uid://ck1tfv8hhxe5c" path="res://audio/more pigs ab oz 2nd.wav" id="63_q4wjx"]
 [ext_resource type="PackedScene" uid="uid://cnd5ud0kbnwjy" path="res://characters/enemies/ganja_goat/ganja_goat.tscn" id="63_vrlwr"]
 [ext_resource type="Script" uid="uid://w3jea5n3bu1p" path="res://utils/fps.gd" id="65_al4tn"]
 [ext_resource type="AudioStream" uid="uid://euneco7ficlf" path="res://audio/GB3AD1300064.wav" id="65_q4wjx"]
@@ -3181,6 +3182,11 @@ position = Vector2(2842, 214)
 
 [node name="GanjaGoat" parent="Enemies" instance=ExtResource("63_vrlwr")]
 position = Vector2(1991, 223)
+
+[node name="AudioStreamPlayer2D" type="AudioStreamPlayer2D" parent="Enemies/GanjaGoat"]
+stream = ExtResource("63_q4wjx")
+autoplay = true
+max_distance = 300.0
 
 [node name="GreatDane2" parent="Enemies" instance=ExtResource("62_jrmi0")]
 modulate = Color(0.72, 0.72, 0.72, 1)

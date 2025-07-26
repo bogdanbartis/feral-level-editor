@@ -12,10 +12,8 @@ extends CharacterBody2D
 var gravity = ProjectSettings.get_setting("physics/2d/default_gravity")
 
 # --- Node References ---
-# This line gets a reference to the AnimatedSprite2D node.
-# The '$' syntax is a shortcut for get_node().
-# Make sure the name "AnimatedSprite2D" matches the actual name of your node in the scene tree.
 @onready var animated_sprite = $AnimatedSprite2D
+@onready var footstep_sound = $AudioStreamPlayer2D
 
 
 func _physics_process(delta):
@@ -67,3 +65,14 @@ func update_animation():
 	else:
 		# If the character is in the air, play "jump".
 		animated_sprite.play("jump")
+
+
+func _on_animated_sprite_2d_frame_changed() -> void:
+	# Define which frames should trigger a footstep
+	var footstep_frames = [5, 12] # <-- IMPORTANT: Change these to match your animation!
+
+	# Check if the current animation is "walk" AND if the current frame is in our list
+	if animated_sprite.animation == "run" and animated_sprite.frame in footstep_frames:
+		# Randomize the pitch to make it sound more natural
+		footstep_sound.pitch_scale = randf_range(0.9, 1.1)
+		footstep_sound.play()

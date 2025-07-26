@@ -1,9 +1,10 @@
-[gd_scene load_steps=29 format=3 uid="uid://bsf0hs0vq1vv3"]
+[gd_scene load_steps=30 format=3 uid="uid://bsf0hs0vq1vv3"]
 
 [ext_resource type="Texture2D" uid="uid://byl6psv00r2b3" path="res://characters/player/sprites/idle.png" id="1_508ok"]
 [ext_resource type="Script" uid="uid://dtr0vs8sgtti0" path="res://characters/player/player.gd" id="1_exd8k"]
 [ext_resource type="Texture2D" uid="uid://dro8sniruya8x" path="res://characters/player/sprites/run_loop.png" id="2_xxgcw"]
 [ext_resource type="Texture2D" uid="uid://cuvvohljvoes0" path="res://characters/player/sprites/jump.png" id="3_5dc8e"]
+[ext_resource type="AudioStream" uid="uid://2t2cqipyhdhm" path="res://audio/Free Footsteps Pack/Concrete 1.wav" id="5_ixbpm"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_xxgcw"]
 atlas = ExtResource("1_508ok")
@@ -174,7 +175,7 @@ animations = [{
 }],
 "loop": true,
 "name": &"run",
-"speed": 16.0
+"speed": 22.0
 }]
 
 [sub_resource type="CapsuleShape2D" id="CapsuleShape2D_xxgcw"]
@@ -185,7 +186,7 @@ script = ExtResource("1_exd8k")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
 sprite_frames = SubResource("SpriteFrames_ixbpm")
-animation = &"idle"
+animation = &"run"
 autoplay = "idle"
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
@@ -194,6 +195,13 @@ shape = SubResource("CapsuleShape2D_xxgcw")
 [node name="Camera2D" type="Camera2D" parent="."]
 position = Vector2(0, -40)
 limit_left = 0
+limit_top = 0
 limit_right = 10000
 position_smoothing_enabled = true
 position_smoothing_speed = 15.0
+
+[node name="AudioStreamPlayer2D" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource("5_ixbpm")
+volume_db = -10.0
+
+[connection signal="frame_changed" from="AnimatedSprite2D" to="." method="_on_animated_sprite_2d_frame_changed"]

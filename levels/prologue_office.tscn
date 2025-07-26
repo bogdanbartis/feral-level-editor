@@ -1,4 +1,4 @@
-[gd_scene load_steps=81 format=3 uid="uid://cf63bu5gqmg50"]
+[gd_scene load_steps=87 format=3 uid="uid://cf63bu5gqmg50"]
 
 [ext_resource type="Script" uid="uid://c13lfr0tm44lq" path="res://levels/camera_2d.gd" id="1_j5v0d"]
 [ext_resource type="Texture2D" uid="uid://dirpmnn6h5t63" path="res://sprites/references/reference_office.png" id="2_e3apq"]
@@ -57,9 +57,13 @@
 [ext_resource type="Texture2D" uid="uid://bsv2hs66ny0e6" path="res://sprites/interior_objects/graphics/books-stacked-vertical-3.png" id="48_r0cjk"]
 [ext_resource type="Texture2D" uid="uid://coceimeev5iwj" path="res://sprites/interior_objects/graphics/books-horizontal-8.png" id="49_jhwjf"]
 [ext_resource type="Texture2D" uid="uid://c8oq52w6kd075" path="res://sprites/interior_objects/graphics/pen-cup-1.png" id="50_5xltv"]
-[ext_resource type="PackedScene" path="res://sprites/lighting/neon.tscn" id="58_kdftn"]
+[ext_resource type="PackedScene" uid="uid://0t87yfdk8rig" path="res://sprites/lighting/neon.tscn" id="58_kdftn"]
 [ext_resource type="Texture2D" uid="uid://dqx31pod1yv5i" path="res://sprites/lighting/lift-button.png" id="59_hu4lr"]
 [ext_resource type="Texture2D" uid="uid://cuvt0rjwgn0m8" path="res://sprites/city_environment/graphics/lift-outside.png" id="60_xfblm"]
+[ext_resource type="PackedScene" uid="uid://bsf0hs0vq1vv3" path="res://characters/player/player.tscn" id="61_xfblm"]
+[ext_resource type="PackedScene" uid="uid://c8ejqehtoghto" path="res://characters/enemies/doberman/doberman.tscn" id="62_2cioe"]
+[ext_resource type="PackedScene" uid="uid://c6yura3g6272y" path="res://characters/enemies/great_dane/great_dane.tscn" id="62_jrmi0"]
+[ext_resource type="PackedScene" uid="uid://cnd5ud0kbnwjy" path="res://characters/enemies/ganja_goat/ganja_goat.tscn" id="63_vrlwr"]
 
 [sub_resource type="OccluderPolygon2D" id="OccluderPolygon2D_kdftn"]
 polygon = PackedVector2Array(-2039, -210, -2039, -209, -2040, -209, -2040, -207, -2021, -207, -2021, -209, -2022, -209, -2022, -210)
@@ -124,9 +128,14 @@ polygon = PackedVector2Array(-18317, -429, -18317, -428, -18272, -428, -18272, -
 [sub_resource type="OccluderPolygon2D" id="OccluderPolygon2D_2cioe"]
 polygon = PackedVector2Array(1419, 187, 1419, 188, 1464, 188, 1464, 187)
 
+[sub_resource type="WorldBoundaryShape2D" id="WorldBoundaryShape2D_2cioe"]
+
+[sub_resource type="WorldBoundaryShape2D" id="WorldBoundaryShape2D_xfblm"]
+distance = -249.0
+
 [node name="Node2D" type="Node2D"]
 metadata/_edit_vertical_guides_ = [640.0, 0.0, 10000.0]
-metadata/_edit_horizontal_guides_ = [0.0]
+metadata/_edit_horizontal_guides_ = [0.0, 252.0]
 
 [node name="ColorRect" type="ColorRect" parent="."]
 offset_right = 10112.0
@@ -137,7 +146,7 @@ metadata/_edit_lock_ = true
 [node name="Camera2D" type="Camera2D" parent="."]
 anchor_mode = 0
 script = ExtResource("1_j5v0d")
-speed = 150.0
+speed = 200.0
 
 [node name="ReferenceOffice" type="Sprite2D" parent="."]
 visible = false
@@ -3050,108 +3059,185 @@ occluder = SubResource("OccluderPolygon2D_2cioe")
 
 [node name="Neon" parent="lights_neons" instance=ExtResource("58_kdftn")]
 position = Vector2(72, 81)
+flickering_enabled = false
 metadata/_edit_group_ = true
 
 [node name="Neon2" parent="lights_neons" instance=ExtResource("58_kdftn")]
 position = Vector2(880, 81)
+flickering_enabled = false
 metadata/_edit_group_ = true
 
 [node name="Neon3" parent="lights_neons" instance=ExtResource("58_kdftn")]
 position = Vector2(1960, 81)
+flickering_enabled = false
 metadata/_edit_group_ = true
 
 [node name="Neon6" parent="lights_neons" instance=ExtResource("58_kdftn")]
 position = Vector2(2304, 81)
+flickering_enabled = false
 metadata/_edit_group_ = true
 
 [node name="Neon7" parent="lights_neons" instance=ExtResource("58_kdftn")]
 position = Vector2(2608, 81)
+flickering_enabled = false
 metadata/_edit_group_ = true
 
 [node name="Neon8" parent="lights_neons" instance=ExtResource("58_kdftn")]
 position = Vector2(3296, 81)
+flickering_enabled = false
 metadata/_edit_group_ = true
 
 [node name="Neon9" parent="lights_neons" instance=ExtResource("58_kdftn")]
 position = Vector2(3544, 81)
+flickering_enabled = false
 metadata/_edit_group_ = true
 
 [node name="Neon10" parent="lights_neons" instance=ExtResource("58_kdftn")]
 position = Vector2(4008, 81)
+flickering_enabled = false
 metadata/_edit_group_ = true
 
 [node name="Neon11" parent="lights_neons" instance=ExtResource("58_kdftn")]
 position = Vector2(4536, 81)
+flickering_enabled = false
 metadata/_edit_group_ = true
 
 [node name="Neon12" parent="lights_neons" instance=ExtResource("58_kdftn")]
 position = Vector2(4664, 81)
+flickering_enabled = false
 metadata/_edit_group_ = true
 
 [node name="Neon13" parent="lights_neons" instance=ExtResource("58_kdftn")]
 position = Vector2(5112, 81)
+flickering_enabled = false
 metadata/_edit_group_ = true
 
 [node name="Neon14" parent="lights_neons" instance=ExtResource("58_kdftn")]
 position = Vector2(5792, 81)
+flickering_enabled = false
 metadata/_edit_group_ = true
 
 [node name="Neon15" parent="lights_neons" instance=ExtResource("58_kdftn")]
 position = Vector2(5912, 81)
+flickering_enabled = false
 metadata/_edit_group_ = true
 
 [node name="Neon16" parent="lights_neons" instance=ExtResource("58_kdftn")]
 position = Vector2(6032, 81)
+flickering_enabled = false
 metadata/_edit_group_ = true
 
 [node name="Neon17" parent="lights_neons" instance=ExtResource("58_kdftn")]
 position = Vector2(6504, 81)
+flickering_enabled = false
 metadata/_edit_group_ = true
 
 [node name="Neon18" parent="lights_neons" instance=ExtResource("58_kdftn")]
 position = Vector2(6616, 81)
+flickering_enabled = false
 metadata/_edit_group_ = true
 
 [node name="Neon19" parent="lights_neons" instance=ExtResource("58_kdftn")]
 position = Vector2(7008, 81)
+flickering_enabled = false
 metadata/_edit_group_ = true
 
 [node name="Neon20" parent="lights_neons" instance=ExtResource("58_kdftn")]
 position = Vector2(7216, 81)
+flickering_enabled = false
 metadata/_edit_group_ = true
 
 [node name="Neon21" parent="lights_neons" instance=ExtResource("58_kdftn")]
 position = Vector2(7704, 81)
+flickering_enabled = false
 metadata/_edit_group_ = true
 
 [node name="Neon22" parent="lights_neons" instance=ExtResource("58_kdftn")]
 position = Vector2(7912, 81)
+flickering_enabled = false
 metadata/_edit_group_ = true
 
 [node name="Neon23" parent="lights_neons" instance=ExtResource("58_kdftn")]
 position = Vector2(8240, 81)
+flickering_enabled = false
 metadata/_edit_group_ = true
 
 [node name="Neon24" parent="lights_neons" instance=ExtResource("58_kdftn")]
 position = Vector2(8448, 81)
+flickering_enabled = false
 metadata/_edit_group_ = true
 
 [node name="Neon25" parent="lights_neons" instance=ExtResource("58_kdftn")]
 position = Vector2(9064, 81)
+flickering_enabled = false
 metadata/_edit_group_ = true
 
 [node name="Neon26" parent="lights_neons" instance=ExtResource("58_kdftn")]
 position = Vector2(9272, 81)
+flickering_enabled = false
 metadata/_edit_group_ = true
 
 [node name="Neon27" parent="lights_neons" instance=ExtResource("58_kdftn")]
 position = Vector2(9624, 81)
+flickering_enabled = false
 metadata/_edit_group_ = true
 
 [node name="Neon4" parent="lights_neons" instance=ExtResource("58_kdftn")]
 position = Vector2(1472, 81)
+flickering_enabled = false
 metadata/_edit_group_ = true
 
 [node name="Neon5" parent="lights_neons" instance=ExtResource("58_kdftn")]
 position = Vector2(1864, 81)
+flickering_enabled = false
 metadata/_edit_group_ = true
+
+[node name="Enemies" type="Node2D" parent="."]
+
+[node name="Doberman" parent="Enemies" instance=ExtResource("62_2cioe")]
+position = Vector2(906, 214)
+
+[node name="GreatDane" parent="Enemies" instance=ExtResource("62_jrmi0")]
+position = Vector2(1160, 214)
+
+[node name="GreatDane3" parent="Enemies" instance=ExtResource("62_jrmi0")]
+position = Vector2(2791, 214)
+flip = true
+
+[node name="GreatDane4" parent="Enemies" instance=ExtResource("62_jrmi0")]
+modulate = Color(0.69, 0.69, 0.69, 1)
+position = Vector2(2842, 214)
+
+[node name="GanjaGoat" parent="Enemies" instance=ExtResource("63_vrlwr")]
+position = Vector2(1991, 223)
+
+[node name="GreatDane2" parent="Enemies" instance=ExtResource("62_jrmi0")]
+modulate = Color(0.72, 0.72, 0.72, 1)
+position = Vector2(2280, 214)
+
+[node name="Doberman2" parent="Enemies" instance=ExtResource("62_2cioe")]
+position = Vector2(3200, 214)
+
+[node name="Player" parent="." instance=ExtResource("61_xfblm")]
+position = Vector2(320, 220)
+
+[node name="WorldBoundaries" type="Node2D" parent="."]
+
+[node name="Left" type="StaticBody2D" parent="WorldBoundaries"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="WorldBoundaries/Left"]
+rotation = 1.5708
+shape = SubResource("WorldBoundaryShape2D_2cioe")
+
+[node name="Right" type="StaticBody2D" parent="WorldBoundaries"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="WorldBoundaries/Right"]
+position = Vector2(10000, 0)
+rotation = -1.5708
+shape = SubResource("WorldBoundaryShape2D_2cioe")
+
+[node name="Floor" type="StaticBody2D" parent="WorldBoundaries"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="WorldBoundaries/Floor"]
+position = Vector2(0, 3)
+shape = SubResource("WorldBoundaryShape2D_xfblm")

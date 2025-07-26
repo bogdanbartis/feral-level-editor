@@ -1,0 +1,41 @@
+[gd_scene load_steps=6 format=3 uid="uid://c8ejqehtoghto"]
+
+[ext_resource type="Texture2D" uid="uid://bhvmmnioyvrra" path="res://characters/enemies/doberman/sprites/idle.png" id="1_i23u0"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_dlamw"]
+atlas = ExtResource("1_i23u0")
+region = Rect2(0, 0, 128, 128)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ge10t"]
+atlas = ExtResource("1_i23u0")
+region = Rect2(128, 0, 128, 128)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_siyw2"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_dlamw")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ge10t")
+}],
+"loop": true,
+"name": &"default",
+"speed": 2.0
+}]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_i23u0"]
+height = 76.0
+
+[node name="Doberman" type="CharacterBody2D"]
+collision_layer = 2
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+position = Vector2(0, 6)
+sprite_frames = SubResource("SpriteFrames_siyw2")
+autoplay = "default"
+frame_progress = 0.808922
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+visible = false
+shape = SubResource("CapsuleShape2D_i23u0")

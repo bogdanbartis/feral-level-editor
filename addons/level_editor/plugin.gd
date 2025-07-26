@@ -68,7 +68,7 @@ func _setup_connections():
 
 func _remove_connections():
 	if is_instance_valid(viewport_control):
-		print("2D Viewport Detector: Disconnecting signals.")
+		#print("2D Viewport Detector: Disconnecting signals.")
 		viewport_control.mouse_entered.disconnect(_on_mouse_entered_viewport)
 		viewport_control.mouse_exited.disconnect(_on_mouse_exited_viewport)
 
@@ -101,7 +101,7 @@ func _process(_delta):
 		cursor_sprite.global_position = get_editor_interface().get_base_control().get_global_mouse_position()
 			
 func _on_mouse_entered_viewport():
-	print("Mouse ENTERED the 2D viewport.")
+	#print("Mouse ENTERED the 2D viewport.")
 	if selected_entity:
 		if is_instance_valid(cursor_sprite):
 			cursor_sprite.show()
@@ -114,7 +114,7 @@ func _on_mouse_entered_viewport():
 		Input.set_mouse_mode(Input.MOUSE_MODE_VISIBLE)
 
 func _on_mouse_exited_viewport():
-	print("Mouse EXITED the 2D viewport.")
+	#print("Mouse EXITED the 2D viewport.")
 	
 	if is_instance_valid(cursor_sprite):
 		cursor_sprite.hide()
@@ -149,7 +149,7 @@ func _entity_selected(entity: MarginContainer) -> void:
 	#cursor_sprite.mouse_filter = Control.MOUSE_FILTER_IGNORE
 
 	
-	print("Selected: ", selected_entity)
+	#print("Selected: ", selected_entity)
 		
 func _handles(object: Object):
 	return true
@@ -158,10 +158,10 @@ func _forward_canvas_gui_input(event: InputEvent) -> bool:
 	var selection = get_editor_interface().get_selection().get_selected_nodes()
 	
 	if event is InputEventKey:
-		print("input key event")
+		#print("input key event")
 		# Check if the key is pressed (not released) and if its scancode matches KEY_ESCAPE.
 		if event.is_pressed() and event.keycode == KEY_ESCAPE:
-			print("Plugin caught the Escape key!")
+			#print("Plugin caught the Escape key!")
 			
 			selected_entity = null
 			cursor_sprite.hide()
@@ -173,7 +173,7 @@ func _forward_canvas_gui_input(event: InputEvent) -> bool:
 	if event is InputEventMouseButton && event.button_index == MOUSE_BUTTON_LEFT && event.is_pressed():
 		var edited_scene_root = get_editor_interface().get_edited_scene_root()
 		
-		print(edited_scene_root)
+		#print(edited_scene_root)
 		# 3. Ensure a scene is currently being edited.
 		if not edited_scene_root:
 			return false
@@ -200,7 +200,7 @@ func _forward_canvas_gui_input(event: InputEvent) -> bool:
 		undo_redo.add_undo_method(edited_scene_root, "remove_child", sprite)
 		undo_redo.commit_action()
 		
-		print("added sprite2d")
+		#print("added sprite2d")
 
 	# 7. Mark the input as handled to prevent other actions (like node selection).
 	#viewport_2d.set_input_as_handled()

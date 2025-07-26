@@ -1,4 +1,4 @@
-[gd_scene load_steps=87 format=3 uid="uid://cf63bu5gqmg50"]
+[gd_scene load_steps=88 format=3 uid="uid://cf63bu5gqmg50"]
 
 [ext_resource type="Script" uid="uid://c13lfr0tm44lq" path="res://levels/camera_2d.gd" id="1_j5v0d"]
 [ext_resource type="Texture2D" uid="uid://dirpmnn6h5t63" path="res://sprites/references/reference_office.png" id="2_e3apq"]
@@ -64,6 +64,7 @@
 [ext_resource type="PackedScene" uid="uid://c8ejqehtoghto" path="res://characters/enemies/doberman/doberman.tscn" id="62_2cioe"]
 [ext_resource type="PackedScene" uid="uid://c6yura3g6272y" path="res://characters/enemies/great_dane/great_dane.tscn" id="62_jrmi0"]
 [ext_resource type="PackedScene" uid="uid://cnd5ud0kbnwjy" path="res://characters/enemies/ganja_goat/ganja_goat.tscn" id="63_vrlwr"]
+[ext_resource type="Script" uid="uid://w3jea5n3bu1p" path="res://utils/fps.gd" id="65_al4tn"]
 
 [sub_resource type="OccluderPolygon2D" id="OccluderPolygon2D_kdftn"]
 polygon = PackedVector2Array(-2039, -210, -2039, -209, -2040, -209, -2040, -207, -2021, -207, -2021, -209, -2022, -209, -2022, -210)
@@ -3241,3 +3242,13 @@ shape = SubResource("WorldBoundaryShape2D_2cioe")
 [node name="CollisionShape2D" type="CollisionShape2D" parent="WorldBoundaries/Floor"]
 position = Vector2(0, 3)
 shape = SubResource("WorldBoundaryShape2D_xfblm")
+
+[node name="UI" type="CanvasLayer" parent="."]
+
+[node name="FPS" type="Label" parent="UI"]
+offset_left = 8.0
+offset_top = 8.0
+offset_right = 49.0
+offset_bottom = 31.0
+text = "0 FPS"
+script = ExtResource("65_al4tn")
